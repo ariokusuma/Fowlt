@@ -23,27 +23,23 @@
             <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        {{-- Navbar --}}
             <div class="navbar-nav">
               <a class="nav-link active " aria-current="page" href="#">About Us</a>
               <a class="nav-link" href="#">Products</a>
               <a class="nav-link" href="#">Contact Us</a>
-              <a class="nav-link active" href="{{ route('login') }}">Login</a>
             </div>
-          </div>
+
+        </div>
+        {{-- Login Button --}}
+        <div class="justify-content-center" id="navbarNavAltMarkup">
+            <a class="nav-link active justify-content-end" href="{{ route('login') }}">Login</a>
+        </div>
+
         </div>
       </nav>
-    {{-- <nav class="navbar bg-primary">
-        <div class="container">
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
-            </div>
-      </nav>
-</body> --}}
+
+</body>
 @yield('header')
 
 </html>
