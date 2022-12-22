@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CarController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,10 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/register', function () {
+    return view('register');
+});
+
+
+Route::get('login', [UserController::class, 'login'])->name('login');
+Route::post('login', [UserController::class, 'login_action'])->name('login.action');
