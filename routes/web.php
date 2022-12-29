@@ -18,13 +18,24 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/login', function () {
-//     return view('login');
-// });
-// Route::get('/register', function () {
-//     return view('register');
-// });
+    Route::get('/login', function () {
+        return view('login');
+    });
+
+    Route::get('/register', function () {
+        return view('register');
+    });
+
+    Route::get('/aboutus', function () {
+        return view('aboutus');
+    });
+
+    Route::get('/theteams', function () {
+    return view('theteams');
+    });
 
 
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');
+
+Route::get('register', [UserController::class, 'register'])->name('register');

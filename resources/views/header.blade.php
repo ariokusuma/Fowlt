@@ -25,7 +25,8 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         {{-- Navbar --}}
             <div class="navbar-nav">
-              <a class="nav-link active " aria-current="page" href="#">About Us</a>
+              <a class="nav-link " href="{{ url('aboutus') }}">About Us</a>
+              {{-- <a class="nav-link active " aria-current="page" href="#">About Us</a> --}}
               <a class="nav-link" href="#">Products</a>
               <a class="nav-link" href="#">Contact Us</a>
             </div>
