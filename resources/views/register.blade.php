@@ -28,10 +28,11 @@
               <p class="login-card-description">Daftar Akun Baru</p>
               {{-- form --}}
 
-              <form action="#!">
+              <form action="{{ route('register.action') }}" method="POST">
+                  @csrf
                   <div class="form-group">
                     <label for="email" class="sr-only">Nama Lengkap</label>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Nama Lengkap Anda">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Nama Lengkap Anda">
                   </div>
 
                 {{-- email --}}
@@ -47,9 +48,9 @@
                   {{-- Confirm Pass --}}
                   <div class="form-group mb-4">
                     <label for="password" class="sr-only">Confirm Password</label>
-                    <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                    <input type="password" name="konfSandi" id="konfSandi" class="form-control" placeholder="***********">
                   </div>
-                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Daftar">
+                  <input name="register" id="register" class="btn btn-block login-btn mb-4" type="submit" value="Daftar">
                 </form>
 
                 {{-- Forgot pass --}}
