@@ -34,6 +34,10 @@ Route::get('/', function () {
     return view('theteams');
     });
 
+    Route::get('/test', function () {
+    return view('test');
+    });
+
 
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');

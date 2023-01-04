@@ -22,9 +22,9 @@
         @endif
             <div class="col">
                 <br>
-                <div class="text-">
+                <div class="text-center">
 
-                    <h4 class="text-center">Fowlt.</h4>
+                    <a class="navbar-brand text-center fs-3" href="/">Fowlt</a>
                 </div>
                 <br>
                 <br>
@@ -80,7 +80,7 @@
                 <br>
                 <br>
                 <br>
-              <img src="/image/86.jpeg" class="rounded mx-auto d-block" alt="logo-ead" width="Automatic" height="420" >
+              <img src="/image/auth/login.jpg" class="rounded mx-auto d-block" alt="logo-ead" width="Automatic" height="420" >
 
 
             </div>
