@@ -37,7 +37,7 @@
 
                 {{-- email --}}
                   <div class="form-group">
-                    <label for="email" class="sr-only">Email</label>
+                    <label for="email" class="sr-only">Emaol</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
                   </div>
                   {{-- Password --}}
