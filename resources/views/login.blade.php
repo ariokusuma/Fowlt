@@ -1,93 +1,60 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fowlt. Login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-    <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Template</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="container">
+      <div class="card login-card">
+        <div class="row no-gutters">
+            {{-- gambar --}}
+          <div class="col-md-5">
+            <img src="/image/auth/loginn.jpg" alt="login" class="login-card-img">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <div class="brand-wrapper">
+                <img src="/image/auth/telyu.png" alt="logo" class="logo">
+              </div>
 
-        <div class="container text-start justify-content-center">
-          <div class="row">
-            @if(session('success'))
-        <p class="alert alert-success">{{ session('success') }}</p>
-        @endif
-        @if($errors->any())
-        @foreach($errors->all() as $err)
-        <p class="alert alert-danger">{{ $err }}</p>
-        @endforeach
-        @endif
-            <div class="col">
-                <br>
-                <div class="text-center">
+              <p class="login-card-description">Masuk ke akun Anda</p>
+              {{-- form --}}
 
-                    <a class="navbar-brand text-center fs-3" href="/">Fowlt</a>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="text-">
-
-                    <h4 class="text-center">Login</h4>
-                    <br>
-                </div>
-
-                <form action="" method="POST"></form>
-                    @csrf
-                    {{-- Email Address --}}
-                    <label class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="example@mail.com">
-                    <br>
-                    {{-- Password --}}
-                    <label for="tanggal_beli" class="form-label">Password</label>
-                    <input type="password" class="form-control" name ="password" id="password" placeholder="Use Strong Password">
-
-                    {{-- Remember Me --}}
-                    <br>
-                    <div>
-                        <input class="form-check-input" type="checkbox" name="remember" id="remember">
-                        <label for="remember">Remember me</label>
-
-                    </div>
-
-                    {{-- Submit --}}
-                    <br>
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-warning" role="button" value="submit" name="submit">Masuk</button>
-                    </div>
+              <form action="#!">
+                  <div class="form-group">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
+                  </div>
+                  <div class="form-group mb-4">
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                  </div>
+                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
                 </form>
 
-                <br>
-                <p class="text-center">Belum Punya Akun ?</p>
+                {{-- Forgot pass --}}
 
-                <div class="text-center">
-                    <a href="{{ url('register') }}"> Daftar</a>
-                </div>
-
-            </div>
-
-            <!-- Kanan -->
-            <div class="col">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-              <img src="/image/auth/login.jpg" class="rounded mx-auto d-block" alt="logo-ead" width="Automatic" height="420" >
-
-
+                {{--  --}}
+                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                <nav class="login-card-footer-nav">
+                  <a>©Fowlt Indonesia</a>
+                </nav>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    </body>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
 </html>
