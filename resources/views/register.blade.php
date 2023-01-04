@@ -30,20 +30,32 @@
 
               <form action="#!">
                   <div class="form-group">
+                    <label for="email" class="sr-only">Nama Lengkap</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Nama Lengkap Anda">
+                  </div>
+
+                {{-- email --}}
+                  <div class="form-group">
                     <label for="email" class="sr-only">Email</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
                   </div>
-                  <div class="form-group mb-4">
+                  {{-- Password --}}
+                  <div class="form-group">
                     <label for="password" class="sr-only">Password</label>
                     <input type="password" name="password" id="password" class="form-control" placeholder="***********">
                   </div>
-                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+                  {{-- Confirm Pass --}}
+                  <div class="form-group mb-4">
+                    <label for="password" class="sr-only">Confirm Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                  </div>
+                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Daftar">
                 </form>
 
                 {{-- Forgot pass --}}
 
                 {{--  --}}
-                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                <p class="login-card-footer-text">Sudah Punya Akun? <strong><a href="#!" class="text-reset text-heavy">Masuk Sekarang</a></strong></p>
                 <nav class="login-card-footer-nav">
                   <a>©Fowlt Indonesia</a>
                 </nav>
