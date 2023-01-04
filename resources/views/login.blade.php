@@ -43,7 +43,7 @@
                 {{-- Forgot pass --}}
 
                 {{--  --}}
-                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                <p class="login-card-footer-text">Don't have an account? <a href="{{ url('register') }}" class="text-reset">Register here</a></p>
                 <nav class="login-card-footer-nav">
                   <a>©Fowlt Indonesia</a>
                 </nav>
