@@ -22,7 +22,9 @@
           <div class="col-md-7">
             <div class="card-body">
               <div class="brand-wrapper">
-                <img src="/image/auth/telyu.png" alt="logo" class="logo">
+                <a href="/">
+                    <img src="/image/auth/telyu.png" alt="logo" class="logo">
+                </a>
               </div>
 
               <p class="login-card-description">Daftar Akun Baru</p>
@@ -31,23 +33,23 @@
               <form action="{{ route('register.action') }}" method="POST">
                   @csrf
                   <div class="form-group">
-                    <label for="email" class="sr-only">Nama Lengkap</label>
+                    <label for="email" class="form-label">Nama Lengkap</label>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Nama Lengkap Anda">
                   </div>
 
                 {{-- email --}}
                   <div class="form-group">
-                    <label for="email" class="sr-only">Emaol</label>
+                    <label for="email" class="form-label">Email</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
                   </div>
                   {{-- Password --}}
                   <div class="form-group">
-                    <label for="password" class="sr-only">Password</label>
+                    <label for="password" class="form-label">Password</label>
                     <input type="password" name="password" id="password" class="form-control" placeholder="***********">
                   </div>
                   {{-- Confirm Pass --}}
                   <div class="form-group mb-4">
-                    <label for="password" class="sr-only">Confirm Password</label>
+                    <label for="password" class="form-label">Confirm Password</label>
                     <input type="password" name="konfSandi" id="konfSandi" class="form-control" placeholder="***********">
                   </div>
                   <input name="register" id="register" class="btn btn-block login-btn mb-4" type="submit" value="Daftar">
@@ -56,7 +58,7 @@
                 {{-- Forgot pass --}}
 
                 {{--  --}}
-                <p class="login-card-footer-text">Sudah Punya Akun? <strong><a href="#!" class="text-reset text-heavy">Masuk Sekarang</a></strong></p>
+                <p class="login-card-footer-text">Sudah Punya Akun? <strong><a href="{{ url('login') }}" class="text-reset text-heavy">Masuk Sekarang</a></strong></p>
                 <nav class="login-card-footer-nav">
                   <a>©Fowlt Indonesia</a>
                 </nav>

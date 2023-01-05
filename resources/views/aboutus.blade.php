@@ -1,8 +1,24 @@
 @extends('header')
-@section('title')
-Fowlt | About Us
-@endsection
+
 @section('header')
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        @section('title')
+        Fowlt | About Us
+        @endsection
+
+    {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/#.css">
+</head>
+<body>
+
 
 
 <div class="hero hero-inner "  style="background-color: #1a374d">
@@ -32,7 +48,7 @@ Fowlt | About Us
         </div>
         <div class="col-lg-5 pl-lg-5 ml-auto ">
           <h2 class="section-title mb-4 pt-5">About Fowlt</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p>Fowlt is a Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           {{-- <ul class="list-unstyled two-col clearfix"> --}}
             <div class="row">
                 <div class="col col-md-4">
@@ -179,12 +195,8 @@ Fowlt | About Us
     </div>
   </div>
 
-
-
 {{-- Footer --}}
-
-
-  <div class="site-footer pt-5">
+  <div class="site-footer">
     <div class="inner first">
       <div class="container">
         <div class="row">
@@ -243,8 +255,8 @@ Fowlt | About Us
 
 
 
-  <div class="inner dark pt-5">
-    <div class="container pt-5">
+  <div class="inner dark">
+    <div class="container">
       <div class="row text-center">
         <div class="col-md-8 mb-3 mb-md-0 mx-auto">
           <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="" class="link-highlight">Kelompok 10</a>
@@ -283,7 +295,7 @@ Fowlt | About Us
     <h4>Design with love in Indonesia</h4>
     <h4>by Group 10</h4>
  --}}
-    <a type="button" class="btn btn-dark text-center" href="{{ url('theteams') }}">Meet out Team</a>
+    {{-- <a type="button" class="btn btn-dark text-center" href="{{ url('theteams') }}">Meet out Team</a> --}}
 
 @endsection
 

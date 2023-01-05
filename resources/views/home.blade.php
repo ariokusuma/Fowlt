@@ -1,40 +1,50 @@
 @extends('header')
-@section('title')
-Fowlt | Home
-@endsection
 
 @section('header')
 
-{{-- <link href="" {{ asset('css/style.css') }}rel="stylesheet"> --}}
 
-<section id="aboutUS" style="background-color: rgb(255, 213, 153)">
-    @auth
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        @section('title')
+        Fowlt | Home
+        @endsection
 
+    {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="/css/home.css"> --}}
+    <link href="{{ asset('css/home.css')}}" rel="stylesheet">
+</head>
+<body>
+
+@auth
+<section id="aboutUS" style="background-color:  #1a374d">
     <div class="container text-center">
         <div class="row align-items-center">
             <!-- Kiri -->
             <div class="col">
-                <h1 class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT<br></h1>
-                <!-- <p>Solusi penyewaan mobil Anda</p> -->
-                {{-- <p class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT</p> --}}
-                <!-- Logo & Nama -->
-                <br>
-                <br>
-                <br>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            {{-- <img src="/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="29"> --}}
-                            {{-- <img src="public/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="21"> --}}
+                <div class="teksawalan">
+                    <h1 class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT<br></h1>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                {{-- <img src="/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="29"> --}}
+                                {{-- <img src="public/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="21"> --}}
+                            </div>
+                            <div class="col">
+                                <p>Ario_1202204123</p>
+                            </div>`
                         </div>
-                        <div class="col">
-                            <p>Ario_1202204123</p>
-                        </div>`
                     </div>
+                    <br>
                 </div>
-                <br>
             </div>
             <!-- Kanan -->
+
             <div class="col">
                 <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
             </div>
@@ -44,14 +54,11 @@ Fowlt | Home
 @endauth
 
 @guest
-<br>
-<br>
-<br>
-<section id="aboutUS" style="background-color: rgb(255, 213, 153)">
+<section id="aboutUS" style="background-color:  #1a374d">
 <div class="container text-center">
-    <div class="row align-items-center">
+    <div class="row align-items-center pt-5">
         <!-- Kiri -->
-        <div class="col">
+        <div class="col sambutan">
                 <h1 class="text-start">Selamat Datang Di <br> Fowlt.</h1>
                 <p class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT</p>
 
@@ -62,8 +69,7 @@ Fowlt | Home
                 <div class="container text-center">
                     <div class="row">
                         {{-- kiri --}}
-                        <div class="col">
-                            {{-- <img src="/images/logo-ead.png" alt="logo-ead" width="Automatic" height="29"> --}}
+                        <div class="col ">
                             <button type="button" class="btn btn-dark ">Produk Kami</button>
 
                         </div>
@@ -77,9 +83,18 @@ Fowlt | Home
                 <br>
             </div>
             <!-- Kanan -->
-            <div class="col">
-                <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
+            <div class="col-lg-5">
+                <div class="slides">
+                    <img src="image/auth/login.jpg" alt="Image" class="img-fluid active">
+                    {{-- <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
+                    <img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
+                    <img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
+                    <img src="images/hero-slider-5.jpg" alt="Image" class="img-fluid"> --}}
+                </div>
             </div>
+            {{-- <div class="col">
+                <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
+            </div> --}}
         </div>
         <br>
         <br>
@@ -148,7 +163,6 @@ Fowlt | Home
                                 <div class="card-body">
                                   <h5 class="card-title">Product 1</h5>
                                   <p class="card-text">Products 1 Description</p>
-                                  <a href="#" class="btn btn-dark">Lihat Selengkapnya</a>
                                 </div>
                               </div>
                         </div>
@@ -159,7 +173,6 @@ Fowlt | Home
                                 <div class="card-body">
                                   <h5 class="card-title">Products 2</h5>
                                   <p class="card-text">Products 2 Description</p>
-                                  <a href="#" class="btn btn-dark">Lihat Selengkapnya</a>
                                 </div>
                               </div>
                         </div>
@@ -170,7 +183,6 @@ Fowlt | Home
                             <div class="card-body">
                               <h5 class="card-title">Products 3</h5>
                               <p class="card-text">Products 3 Description</p>
-                              <a href="#" class="btn btn-dark">Lihat Selengkapnya</a>
                               <br>
                             </div>
 
@@ -268,6 +280,9 @@ Fowlt | Home
 
 </body>
 </html>
+
+
+
 {{-- <h1>konten</h1> --}}
 
 {{-- <div class-"login screen">
