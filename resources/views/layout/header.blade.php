@@ -77,8 +77,6 @@
             <div class="navbar-nav">
                 <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
               <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
-              {{-- <a class="nav-link active " aria-current="page" href="#">About Us</a> --}}
-              {{-- <a class="nav-link text-white" href="{{ url('produkfowlt') }}">Produk</a> --}}
 
 {{-- ============================================ --}}
                 <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>

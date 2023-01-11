@@ -22,7 +22,7 @@
               <div class="col-md-6 col-lg-4">
                 <div class="widget">
                   <h3 class="heading">About Tour</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <p>Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari kita untuk kita.</p>
                 </div>
                 <div class="widget">
                   <ul class="list-unstyled social">

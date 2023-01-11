@@ -93,9 +93,6 @@
                     <img src="images/hero-slider-5.jpg" alt="Image" class="img-fluid"> --}}
                 </div>
             </div>
-            {{-- <div class="col">
-                <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
-            </div> --}}
         </div>
         <br>
         <br>
@@ -105,44 +102,7 @@
 </section>
 
     <section id="bagian2" style="background-color: rgb(255, 255, 255)">
-        {{-- <div class="container text-center">
-            <div class="row align-items-center">
-                <!-- Kiri -->
-                <div class="col">
-                    <br>
-                    <br>
-                    <br>
-                    <h2>Mengembangkan Peternakan Unggas dengan IoT</h2>
-                    <h5>All in One System</h5>
 
-                        <!-- Logo & Nama -->
-                        <br>
-                        <br>
-                        <div class="container text-center">
-                            <div class="row">
-                                {{-- kanan --}}
-                                {{-- <div class="col">
-                                    <button type="button" class="btn btn-dark">Pelajari Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <br>
-                    </div>
-                    <!-- Kanan -->
-                    <div class="col">
-                        <br>
-                        <br>
-                        <img src="/image/Ecosystem.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div> --}}
-
-    </section>
 
 	<div class="service-section pt-5">
 		<div class="container">
@@ -206,18 +166,3 @@
 
 </body>
 </html>
-
-
-
-{{-- <h1>konten</h1> --}}
-
-{{-- <div class-"login screen">
-    <div class="overlan-aroun">
-    <div class=" fowlt">Fowlt</div>
-    <h1 class="title"›Login</h1>
-        <div class="email mada-medium-black-20px">Email</div>
-        <div class-"rectangle-2"></div>
-        <div class="password mada-medium-black-20px">Password</div>
-    <div class="rectangle-2"></div> <div class="overlap-group1">
-    <div class= "login-1"›LOGIN</div> </div>
-    </div> --}}

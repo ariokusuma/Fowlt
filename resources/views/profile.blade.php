@@ -1,6 +1,6 @@
-@extends('header')
+@extends('layout.layout')
 
-@section('header')
+@section('content')
 
 <!DOCTYPE html>
 <html lang="en">
