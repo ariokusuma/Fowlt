@@ -7,14 +7,14 @@
   @section('title')
   Fowlt | Login
   @endsection
-  {{-- <title>Login</title> --}}
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="body">
   <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
     <div class="container">
       <div class="card login-card">
@@ -25,7 +25,7 @@
           </div>
           <div class="col-md-7">
             <div class="card-body">
-                
+
               <div class="brand-wrapper">
                 <a href="/">
                     <img src="/image/auth/telyu.png" alt="logo" class="logo">
@@ -53,7 +53,7 @@
                 {{--  --}}
                 {{-- <p class="login-card-footer-text">Don't have an account? <a href="{{ url('register') }}" class="text-reset">Register here</a></p> --}}
                 <p class="login-card-footer-text">Belum Punya Akun? <strong><a href="{{ url('register') }}" class="text-reset text-heavy">Daftar Sekarang</a></strong></p>
-                <nav class="login-card-footer-nav">
+                <nav class="login-card-footer-nav" id="footer">
                   <a>©Fowlt Indonesia</a>
                 </nav>
             </div>
