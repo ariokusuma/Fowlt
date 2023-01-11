@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" href="/css/home.css"> --}}
     <link href="{{ asset('css/home.css')}}" rel="stylesheet">
+    {{-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet"> --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -54,7 +56,7 @@
 @endauth
 
 @guest
-<section id="aboutUS" style="background-color:  #1a374d">
+<section id="bagian1" style="background-color:  #1a374d">
 <div class="container text-center">
     <div class="row align-items-center pt-5">
         <!-- Kiri -->
@@ -63,29 +65,28 @@
                 <p class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT</p>
 
                 <!-- Logo & Nama -->
-                <br>
-                <br>
-                <br>
-                <div class="container text-center">
-                    <div class="row">
+                <div class="container text-center pt-1">
+                    <div class="row"  id="semuaTombol">
                         {{-- kiri --}}
-                        <div class="col ">
-                            <button type="button" class="btn btn-dark ">Produk Kami</button>
-
+                        <div class="col">
+                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Produk Kami</a>
+                        </div>
+                        <div class="col">
+                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Fowlt</a>
                         </div>
                         {{-- kanan --}}
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">Tentang Fowlt.</button>
-                        </div>
+                        {{-- <div class="col">
+                            <button type="button" class="btn btn-dark" id="detilTombol">Tentang Fowlt.</button>
+                        </div> --}}
                     </div>
                 </div>
 
                 <br>
             </div>
             <!-- Kanan -->
-            <div class="col-lg-5">
-                <div class="slides">
-                    <img src="image/auth/login.jpg" alt="Image" class="img-fluid active">
+            <div class="col-lg-5" id="gambarHeading">
+                <div class="slides" >
+                    <img src="image/auth/login.jpg" alt="Image" class="img-fluid active" id="iniGambar">
                     {{-- <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
                     <img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
                     <img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
@@ -103,25 +104,24 @@
     </div>
 </section>
 
-    <section id="aboutUS" style="background-color: rgb(237, 237, 237)">
-        <div class="container text-center">
+    <section id="bagian2" style="background-color: rgb(255, 255, 255)">
+        {{-- <div class="container text-center">
             <div class="row align-items-center">
                 <!-- Kiri -->
                 <div class="col">
                     <br>
                     <br>
                     <br>
-                    <h3>Mengembangkan Peternakan Unggas dengan IoT</h3>
+                    <h2>Mengembangkan Peternakan Unggas dengan IoT</h2>
                     <h5>All in One System</h5>
 
                         <!-- Logo & Nama -->
                         <br>
                         <br>
-                        <br>
                         <div class="container text-center">
                             <div class="row">
                                 {{-- kanan --}}
-                                <div class="col">
+                                {{-- <div class="col">
                                     <button type="button" class="btn btn-dark">Pelajari Selengkapnya</button>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                 <br>
                 <br>
                 <br>
-            </div>
+            </div> --}}
 
     </section>
 

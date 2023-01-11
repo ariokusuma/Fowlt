@@ -15,30 +15,33 @@
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/#.css">
+    {{-- <link rel="stylesheet" href="/css/home.css"> --}}
+    <link href="{{ asset('css/home.css')}}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
 
 
-<div class="hero hero-inner "  style="background-color: #1a374d">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mx-auto text-center pt-5">
-          <div class="intro-wrap">
-            <h1 class="mb-0 text-white">About Us</h1>
-            <p class="text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            <br>
-          </div>
+    <div class="hero hero-inner "  style="background-color: #1a374d">
+        <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mx-auto text-center pt-5">
+            <div class="intro-wrap">
+                <h1 class="mb-0 text-white">About Us</h1>
+                <p class="text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <br>
+            </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
 
 
 
 
-  <div class="Title-section">
+  <div class="Title-section" id="aboutUSDetail">
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
@@ -79,7 +82,7 @@
 {{-- TEAMS --}}
 
 
-  <div class="Teams-section pt-5">
+  <div class="Teams-section pt-5" id="ourTeams">
     <div class="container">
       <div class="row justify-content-center mb-5 ">
         <div class="col-md-6 text-center">
@@ -138,7 +141,7 @@
 
 
 
-  <div class="Testimonials-section testimonial-section mt-5 pt-5">
+  <div class="Testimonials-section testimonial-section mt-5 pt-5" id="testimonials">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-center">

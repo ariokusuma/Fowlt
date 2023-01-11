@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
  </head>
 
@@ -49,6 +50,8 @@
                     </ul>
                 </li>
                 <a class="nav-link text-white" href="#">Contact Us</a>
+                <a class="nav-link text-white" href="#">Marketplace</a>
+
             </div>
         </div>
 
@@ -75,10 +78,12 @@
         {{-- Navbar --}}
             <div class="navbar-nav">
                 <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
-              <a class="nav-link text-white" href="{{ url('aboutus') }}">About Us</a>
+              <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
               {{-- <a class="nav-link active " aria-current="page" href="#">About Us</a> --}}
-              <a class="nav-link text-white" href="#">Products</a>
-              <a class="nav-link text-white" href="#">Contact Us</a>
+              <a class="nav-link text-white" href="#">Produk</a>
+              {{-- <a class="nav-link text-white" href="#">HubungiKami</a> --}}
+              <a class="nav-link text-white" href="#">Belanja</a>
+              <a class="nav-link text-white" href="#">Artikel</a>
             </div>
 
         </div>

@@ -1,15 +1,66 @@
 body{
     color: #ffffff;
-    font-family: 'Mada', sans-serif;
+    /* font-family: 'Mada', sans-serif; */
+    font-family: 'Rowdies', cursive;
+}
+#aboutUSDetail{
+    color: #000000;
 }
 
-.autent {
+#ourTeams {
+    color: #000000;
+}
+
+#testimonials {
+    color: #000000;
+}
+
+body p {
+    font-family: 'Rubik', sans-serif;
+}
+
+body li {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* .autent { */
         /* font-family: 'Mada', sans-serif; */
-        font-family: 'Prosto One', cursive;
+        /* font-family: 'Prosto One', cursive; */
+/* } */
+
+
+#bagian1 {
+
+    background-color: #1a374d ;
+    color: #ffffff;
+}
+#bagian1 h1 {
+    margin-top: 27px;
+    font-size: 55px;
 }
 
+#bagian1 #gambarHeading #iniGambar{
+    margin-top: 27px;
+    border-radius: 12%;
+}
+
+#bagian1 #detilTombol {
+    margin-top: 27px;
+    font-size: 21px;
+    margin-left: 12px;
+
+}
+#bagian1 #semuaTombol {
+    font-size: 21px;
+    margin-right: 210px;
+
+}
 
 /* .teksawalan { */
-#aboutUS {
-    color: #ffffff;
+#bagian2 {
+    color: #000000;
+}
+
+#aboutUSDetail {
+    color: #000000;
 }
