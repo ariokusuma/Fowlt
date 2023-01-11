@@ -38,6 +38,17 @@ Route::get('/', function () {
     return view('test');
     });
 
+    Route::get('/artikel', function () {
+    return view('artikel');
+    });
+
+    Route::get('/profile', function () {
+        return view('profile');
+    });
+
+    Route::get('/footer', function () {
+        return view('footer');
+    });
 
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');

@@ -72,7 +72,7 @@
                             <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Produk Kami</a>
                         </div>
                         <div class="col">
-                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Fowlt</a>
+                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Kami</a>
                         </div>
                         {{-- kanan --}}
                         {{-- <div class="col">

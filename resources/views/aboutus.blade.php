@@ -198,110 +198,22 @@
     </div>
   </div>
 
-{{-- Footer --}}
-  <div class="site-footer">
-    <div class="inner first">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="widget">
-              <h3 class="heading">About Tour</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-            <div class="widget">
-              <ul class="list-unstyled social">
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-dribbble"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                <li><a href="#"><span class="icon-apple"></span></a></li>
-                <li><a href="#"><span class="icon-google"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2 pl-lg-5">
-            <div class="widget">
-              <h3 class="heading">Pages</h3>
-              <ul class="links list-unstyled">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2">
-            <div class="widget">
-              <h3 class="heading">Resources</h3>
-              <ul class="links list-unstyled">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="widget">
-              <h3 class="heading">Contact</h3>
-              <ul class="list-unstyled quick-info links">
-                <li class="email"><a href="#">mail@example.com</a></li>
-                <li class="phone"><a href="#">+1 222 212 3819</a></li>
-                <li class="address"><a href="#">43 Raymouth Rd. Baltemoer, London 3910</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
-
-
-  <div class="inner dark">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-8 mb-3 mb-md-0 mx-auto">
-          <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="" class="link-highlight">Kelompok 10</a>
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-{{--
-<section style="background-color: rgb(245, 245, 245);">
-    <br>
-    <br>
-    <center><h1>About Us</h1></center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-        <div class="row align-item-start">
-            <div class="col">
-                <h4>Fowlt merupakan websiter bla bla bla</h4>
-              </div>
-        </div>
-    </div>
-    <br>
-
-
-</section>
-
-<section style="background-color: rgb(245, 245, 245); text-center">
-    <h4>Design with love in Indonesia</h4>
-    <h4>by Group 10</h4>
- --}}
     {{-- <a type="button" class="btn btn-dark text-center" href="{{ url('theteams') }}">Meet out Team</a> --}}
 
 @endsection
 
 
+
+
+
+@extends('footer')
+
+
 </body>
 </html>
+
+
+
+{{-- @include('footer') --}}
