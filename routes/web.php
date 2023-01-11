@@ -30,9 +30,17 @@ Route::get('/', function () {
         return view('aboutus');
     });
 
-    Route::get('/theteams', function () {
-    return view('theteams');
+    Route::get('/produkfowlt', function () {
+        return view('produkfowlt');
     });
+
+    Route::get('/belanja', function () {
+        return view('belanja');
+    });
+
+    // Route::get('/theteams', function () {
+    // return view('theteams');
+    // });
 
     Route::get('/test', function () {
     return view('test');
@@ -48,6 +56,10 @@ Route::get('/', function () {
 
     Route::get('/footer', function () {
         return view('footer');
+    });
+
+    Route::get('/artikel1', function () {
+        return view('artikel.artikel1');
     });
 
 Route::get('login', [UserController::class, 'login'])->name('login');

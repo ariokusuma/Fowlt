@@ -1,6 +1,6 @@
-@extends('header')
+@extends('layout.layout')
 
-@section('header')
+@section('content')
 
 
 <!DOCTYPE html>
@@ -61,18 +61,18 @@
     <div class="row align-items-center pt-5">
         <!-- Kiri -->
         <div class="col sambutan">
-                <h1 class="text-start">Selamat Datang Di <br> Fowlt.</h1>
-                <p class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT</p>
+                <h1 class="text-start">Tumbuh Berkembang bersama <br> Fowlt.</h1>
+                <p class="text-start">Memajukan sektor peternakan ayam Indonesia dengan teknologi</p>
 
                 <!-- Logo & Nama -->
                 <div class="container text-center pt-1">
                     <div class="row"  id="semuaTombol">
                         {{-- kiri --}}
                         <div class="col">
-                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Produk Kami</a>
+                            <a type="button" class="btn btn-light" href="{{ url('belanja') }}" id = "detilTombol">Jual/Beli</a>
                         </div>
                         <div class="col">
-                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Kami</a>
+                            <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Fowlt</a>
                         </div>
                         {{-- kanan --}}
                         {{-- <div class="col">
@@ -144,128 +144,54 @@
 
     </section>
 
-    {{-- Section3 --}}
-    <section id="ourProducts" style="background-color: rgb(255, 213, 153)">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <br>
-                <br>
-                <br>
-                <h2>Our Products</h2>
-
-                {{-- Grids --}}
-                <div class="container text-center">
-                    <div class="row">
-                        {{-- Kiri --}}
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Product 1</h5>
-                                  <p class="card-text">Products 1 Description</p>
-                                </div>
-                              </div>
-                        </div>
-                        {{-- Tengah --}}
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Products 2</h5>
-                                  <p class="card-text">Products 2 Description</p>
-                                </div>
-                              </div>
-                        </div>
-                        {{-- Kanan --}}
-                      <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Products 3</h5>
-                              <p class="card-text">Products 3 Description</p>
-                              <br>
-                            </div>
-
-                          </div>
-                          <br>
-                          <br>
-                          <br>
-                      </div>
-                    </div>
-                  </div>
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-        </section>
-
-
-
-	<div class="untree_co-section">
+	<div class="service-section pt-5">
 		<div class="container">
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-6 text-center">
 					<h2 class="section-title text-center mb-3">Our Services</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<p>Solusi kami untuk sektor peternakan Indonesia</p>
 				</div>
 			</div>
-			<div class="row align-items-stretch">
-				<div class="col-lg-4 order-lg-1">
-					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('images/hero-slider-1.jpg');"></div></div></div>
-				</div>
+     {{-- Grids --}}
+     <div class="container text-center">
+        <div class="row">
+            {{-- Kiri --}}
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Solusi Jual/Beli</h5>
+                      <p class="card-text">Sebuah solusi layanan bagi para peternak ayam untuk dapat menjual hasil ternaknya kepada konsumen secara langsung yang saat ini tersebar di 3 kota yaitu, Bandung, Bogor, dan Yogyakarta.</p>
+                    </div>
+                  </div>
+            </div>
+            {{-- Tengah --}}
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Solusi Teknologi ternak</h5>
+                      <p class="card-text">Sebuah solusi layanan untuk mengimplementasikan teknologi tepat guna dalam sektor peternakan ayam yang dapat membantu keberhasilan dan maksimalnya hasil ternak.</p>
+                    </div>
+                  </div>
+            </div>
+            {{-- Kanan --}}
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Solusi untuk semua orang (Kabayan)</h5>
+                  <p class="card-text">Sebuah solusi layanan bagi seluruh masyarakat Indonesia yang ingin memiliki usaha peternakan ayam namun belum memiliki modal usaha.</p>
+                  <br>
+                </div>
 
-				<div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
-
-					<div class="feature-1 d-md-flex">
-						<div class="align-self-center">
-							<span class="flaticon-house display-4 text-primary"></span>
-							<h3>Beautiful Condo</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-						</div>
-					</div>
-
-					<div class="feature-1 ">
-						<div class="align-self-center">
-							<span class="flaticon-restaurant display-4 text-primary"></span>
-							<h3>Restaurants & Cafe</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3" >
-
-					<div class="feature-1 d-md-flex">
-						<div class="align-self-center">
-							<span class="flaticon-mail display-4 text-primary"></span>
-							<h3>Easy to Connect</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-						</div>
-					</div>
-
-					<div class="feature-1 d-md-flex">
-						<div class="align-self-center">
-							<span class="flaticon-phone-call display-4 text-primary"></span>
-							<h3>24/7 Support</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
-        <section id="ourProducts" style="background-color: rgb(255, 213, 153)">
-
+              </div>
+              <br>
+              <br>
+              <br>
+          </div>
+        </div>
+      </div>
 
 
         </section>

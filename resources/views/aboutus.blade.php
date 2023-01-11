@@ -1,6 +1,6 @@
-@extends('header')
+@extends('layout.layout')
 
-@section('header')
+@section('content')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,13 +15,11 @@
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    {{-- <link rel="stylesheet" href="/css/home.css"> --}}
-    <link href="{{ asset('css/home.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="/css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-
 
 
     <div class="hero hero-inner "  style="background-color: #1a374d">
@@ -37,8 +35,6 @@
         </div>
         </div>
     </div>
-
-
 
 
   <div class="Title-section" id="aboutUSDetail">
@@ -139,8 +135,6 @@
 
 {{-- TESTIMONIALS --}}
 
-
-
   <div class="Testimonials-section testimonial-section mt-5 pt-5" id="testimonials">
     <div class="container">
       <div class="row justify-content-center">
@@ -197,18 +191,17 @@
       </div>
     </div>
   </div>
+  @endsection
 
 
 
     {{-- <a type="button" class="btn btn-dark text-center" href="{{ url('theteams') }}">Meet out Team</a> --}}
 
-@endsection
 
 
 
 
-
-@extends('footer')
+    {{-- @extends('layout.footer') --}}
 
 
 </body>

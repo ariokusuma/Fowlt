@@ -8,8 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
  </head>
 
@@ -32,9 +30,9 @@
             <div class="navbar-nav">
                 <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
                 <a class="nav-link text-white" href="{{ url('aboutus') }}">About Us</a>
-                <a class="nav-link text-white" href="#">Products</a>
+                <a class="nav-link text-white" href="{{ url('produkfowlt') }}">Products</a>
                 <li class="has-children">
-                    <a href="#">Dropdown</a>
+                    <a href="#">Produk</a>
                     <ul class="dropdown">
                         <li><a href="elements.html">Elements</a></li>
                         <li><a href="#">Menu One</a></li>
@@ -65,7 +63,7 @@
       @endauth
 
       @guest
-      <nav class="navbar navbar-expand-lg" style="background-color: #1a374d">
+      <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: #1a374d">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
             <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
@@ -80,7 +78,17 @@
                 <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
               <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
               {{-- <a class="nav-link active " aria-current="page" href="#">About Us</a> --}}
-              <a class="nav-link text-white" href="#">Produk</a>
+              {{-- <a class="nav-link text-white" href="{{ url('produkfowlt') }}">Produk</a> --}}
+
+{{-- ============================================ --}}
+                <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                    <li><a href="#">Solusi Jual/Beli</a></li>
+                    <li><a href="#">Solusi Teknologi ternak</a></li>
+                    <li><a href="#">Solusi untuk semua orang</a></li>
+                    </ul>
+                </li>
+{{-- ============================================ --}}
               {{-- <a class="nav-link text-white" href="#">HubungiKami</a> --}}
               <a class="nav-link text-white" href="#">Belanja</a>
               <a class="nav-link text-white" href="{{ url('artikel') }}">Artikel</a>

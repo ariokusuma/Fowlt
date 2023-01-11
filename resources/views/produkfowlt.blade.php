@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         @section('title')
-        Fowlt | Artikel
+        Fowlt | Produk
         @endsection
 
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
@@ -28,7 +28,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mx-auto text-center pt-5">
             <div class="intro-wrap">
-                <h1 class="mb-0 text-white">Artikel</h1>
+                <h1 class="mb-0 text-white">Produk Kami</h1>
                 <p class="text-white">Artikel Fowlt</p>
                 <br>
             </div>
