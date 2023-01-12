@@ -79,6 +79,15 @@ Route::get('/', function () {
         return view('produk.produk3');
     });
 
+    Route::get('/belanja', function () {
+        return view('belanja.belanja');
+    });
+
+    Route::get('/detailproduk', function () {
+        return view('belanja.belanja-detail');
+    });
+
+
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');
 

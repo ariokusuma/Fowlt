@@ -1,0 +1,174 @@
+
+.primary-btn{height:40px;padding:0px 44px;line-height:38px;text-transform:capitalize;background:#384aeb;border-radius:30px;color:#fff;font-weight:500}.cart_inner .table tbody tr.out_button_area .checkout_btn_inner .primary-btn:hover:before{left:240px}.gray_btn{line-height:38px;background:#f1f6f7;border:1px solid #eeeeee;border-radius:30px;padding:0px 44px;display:inline-block;color:#222;text-transform:capitalize;font-weight:500}
+
+.primary-btn{line-height:38px;padding:0px 38px;text-transform:uppercase;margin-right:10px;border-radius:5px}
+
+.product_image_area{
+    padding-top:50px;
+    margin-bottom: 100px;
+}
+@media (min-width: 1000px){
+    .product_image_area{padding-top:100px}
+}
+
+.s_Product_carousel .owl-dots{
+    position:absolute;right:20px;top:50%;transform:translateY(-50%)
+}
+
+.s_Product_carousel .owl-dots div{
+    height:5px;width:20px;background:#dddddd;margin:5px;display:block;content:"";border-radius:50px
+}
+
+.ProductImage {
+    height: 40px;
+}
+
+.s_Product_carousel .owl-dots div.active{
+    width:30px
+}
+
+.s_product_text{
+    margin-left:-15px;margin-top:65px
+}
+
+@media (max-width: 575px){.s_product_text{margin-left:0px}}
+
+.s_product_text h3{
+    font-size:24px;font-weight:500;color:#222;margin-bottom:20px
+}
+
+.s_product_text h2{
+    font-family:"Roboto",sans-serif;
+    font-size:24px;
+    font-weight:700;
+    color:#384aeb;
+    margin-bottom:10px
+}
+
+.s_product_text .list li{
+    margin-bottom:5px
+}
+
+.s_product_text .list li a{
+    font-size:15px;
+    font-weight:normal;
+    color:#777777
+}
+
+.s_product_text .list li a span{
+    width:90px;
+    display:inline-block;
+    color:#555555
+}
+
+.s_product_text .list li a span:hover{
+    color:#555
+}
+
+.s_product_text .list li a.active span{
+    color:#555;
+    -webkit-text-fill-color:#555
+}
+
+.s_product_text .list li:last-child{
+    margin-bottom:0px
+}
+
+.s_product_text p{
+    padding-top:20px;
+    border-top:1px dotted #eeeeee;
+    border-bottom:1px dotted #eeeeee;
+    margin-top:20px;padding-bottom:26px;
+    margin-bottom:0
+}
+
+.s_product_text .card_area{
+    margin-top:25px
+}
+
+.s_product_text .card_area .primary-btn{
+    line-height:38px;
+    padding:0px 38px;
+    text-transform:uppercase;
+    margin-right:10px;
+    border-radius:5px
+}
+
+.s_product_text .card_area .icon_btn{
+    position:relative;
+    height:40px;
+    width:40px;
+    text-align:center;
+    background:#e8f0f2;
+    border-radius:3px;
+    display:inline-block;
+    color:#222;
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s;
+    margin-right:10px;
+    z-index:1
+}
+
+.s_product_text .card_area .icon_btn i,.s_product_text .card_area .icon_btn span{
+    line-height:40px
+}
+
+.s_product_text .card_area .icon_btn:after{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    content:"";
+    border-radius:50%;
+    opacity:0;
+    visibility:hidden;
+    z-index:-1}
+    .s_product_text .card_area .icon_btn:hover{
+        background:#fff;
+        box-shadow:0px 10px 20px 0px rgba(153,153,153,0.3)
+    }
+
+    .s_product_text .card_area .icon_btn:hover:after{
+        opacity:1;
+        visibility:visible
+    }
+
+    .product_count{display:inline-block;
+        position:relative;
+        margin-bottom:24px
+    }
+
+    .product_count label{
+        font-size:14px;
+        color:#777;
+        font-weight:normal;
+        padding-right:10px
+    }
+
+    .product_count input{
+        width:76px;
+        border:1px solid #eeeeee;
+        border-radius:3px;
+        padding-left:10px
+    }
+
+.product_count button{
+    display:block;
+    border:none;
+    background:transparent;
+    box-shadow:none;
+    cursor:pointer;
+    position:absolute;
+    right:0px;
+    font-size:14px;
+    color:#cccccc;
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s
+}
+
+/* .product_count button:hover{color:#222}.product_count .increase{top:-4px}.product_count .reduced{bottom:-8px} */
