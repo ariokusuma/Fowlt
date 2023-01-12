@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Product;
 use App\Http\Controllers\User;
+
 use DB;
 use Illuminate\Http\Request;
 use App\Models\Products;
@@ -35,7 +37,7 @@ class ProductController extends Controller
             'farmer' => $request -> farmer,
             'lokasi' => $request -> lokasi,
             'deskripsi' => $request -> deskripsi,
-            'gambar' => $imgName,
+            'gambar' => $imgName
         ]);
 
         return redirect('jualternak');
@@ -45,10 +47,24 @@ class ProductController extends Controller
         $ambil = DB::select('select * from products');
         return view ('belanja.belanja')->with('ambil',$ambil);
     }
+    public function show(Product $products)
+    {
+        return view('detailproduk', compact('products'));
+    }
 
-    public function detail(){
-        $products = Products::all();
+    public function detail($id)
+    {
+        $products = Products::get();
         return view('belanja.belanja-detail', compact('products'));
     }
+
+    public function destroy($id)
+    {   
+
+        Products::find($id)->delete();
+
+        return redirect('/belanja');  
+    }
+  
     
 }

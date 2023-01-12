@@ -111,4 +111,6 @@ Route::get('/belanja', [ProductController::class, 'ambil'])->name('ambil');
 
 Route::resource('/belanja', ProductController::class);
 
-Route::get('/detailproduk', [ProductController::class, 'detail'])->name('detail');
+Route::get('/detailproduk/{id}', [ProductController::class, 'detail'])->name('detail');
+
+Route::post('destroy', [ProductController::class, 'destroy'])->name('destroy');

@@ -41,7 +41,7 @@
 @guest
 
 
-    <section id="bagian2" style="background-color: rgb(255, 255, 255)">
+  <section id="bagian2" style="background-color: rgb(255, 255, 255)">
 
 
 	<div class="service-section pt-5">
@@ -78,7 +78,16 @@
                         <p class="card-text">{{ $data -> name }}</p>
                         <h4 class="card-title">Rp{{ $data -> harga }}</h4>
                         <p class="card-text">{{ $data -> lokasi }}</p>
-                        <a href="detailproduk/{{$data->id}}" class="stretched-link"></a>
+                      @if(!auth()->user()->isAdmin())
+                        <form action="{{ route('destroy')}}" method="post">
+                            <div class="modal-body">
+                            @csrf
+                            @method('DELETE')
+                            <h5 class="text-center"></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-danger px-5 rounded-pill">Delete </button>
+                      @endif
                       
                     </div>
                   </div>

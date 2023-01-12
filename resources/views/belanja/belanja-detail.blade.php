@@ -26,28 +26,33 @@
   <!--================Single Product Area =================-->
   <div class="product_image_area">
     <div class="container">
+    @foreach ($products as $data)
         <div class="row s_product_inner">
             <div class="col-lg-4">
                 <div class="owl-carousel owl-theme s_Product_carousel">
                     <div class="single-prd-item">
-                        <img class="img-fluid ProductImage" src="/image/market/chicken.jpg" alt="" height="40px" width="auto">
+                        <img class="img-fluid ProductImage" src="{{asset('image/produkayam.jpg')}}" alt="" height="40px" width="auto">
                     </div>
                 </div>
             </div>
+          
             <div class="col-lg-5 offset-lg-1">
                 <div class="s_product_text">
-                    <h3>{{$products->name}}</h3>
-                    <h2>{{$products->harga}}</h2>
+                    <h3>{{$data->name}}</h3>
+                    <h2>{{$data->harga}}</h2>
                     <ul class="list">
-                        <li><a class="active"><span>Category</span> : Hasil Ternak</a></li>
-                        <li><a ><span>Availibility</span> : Tersedia</a></li>
+                        <li><a class="active"><span>Penjual</span> : {{$data->farmer}}</a></li>
+                        <li><a ><span>Lokasi</span> : {{$data->lokasi}}</a></li>
                     </ul>
-                    <p>Ayam Kampung Kami diternak dengan sangat baik sesuai dengan standar </p>
-                        <a class="button primary-btn" href="#">Hubungi Penjual</a>
+                    <p>{{$data->deskripsi}} </p>
+                        <a class="button primary-btn" href="http://wa.me/62895609827665">Hubungi Penjual</a>
                     </div>
                     </div>
+                    
+
                 </div>
             </div>
+            @endforeach
         </div>
     </div>
 </div>

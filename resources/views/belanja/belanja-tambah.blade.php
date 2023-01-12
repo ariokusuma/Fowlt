@@ -80,7 +80,7 @@
                   <textarea type="textarea" name="deskripsi" id="deskripsi" class="form-control" rows="0"></textarea>
                 </div>
 
-                <input name="register" id="register" class="btn btn-block login-btn mb-4" type="submit" value="Daftar">
+                <a href="{{ url('belanja') }}" name="register" id="register" class="btn btn-block login-btn mb-4" type="submit" value="Daftar">Daftar</a>
               </form>
 
                 {{-- Forgot pass --}}
