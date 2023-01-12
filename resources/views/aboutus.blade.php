@@ -28,7 +28,7 @@
             <div class="col-lg-6 mx-auto text-center pt-5">
             <div class="intro-wrap">
                 <h1 class="mb-0 text-white">About Us</h1>
-                <p class="text-white">Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari Kita untuk Kita.</p>
+                <p class="text-white pt-1" id="desc-prod">Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari Kita untuk Kita.</p>
                 <br>
             </div>
             </div>
@@ -49,26 +49,7 @@
           <h2 class="section-title mb-4 pt-5">About Fowlt</h2>
           <p>Fowlt adalah perusahaan berbasis teknologi yang hadir untuk membantu dan mensejahterakan peternak ayam di Indonesia. Kami percaya dengan adanya teknologi yang Kami kembangkan dapat sangat membantu para peternak, Kami juga menyediakan tempat untuk melakukan jual beli antara peternak dengan konsumen, selain itu Kami menjadi salah satu solusi permodalan bagi para calon pengusaha yang ingin terjun ke dunia ternak. Kami percaya bahwa Kami akan turut ikut serta dalam peningkatan kualitas ternak di Indonesia dan semua masyarakat berhak mengkonsumsi daging ayam dengan kualitas yang baik namun dengan harga yang terjangkau.</p>
           {{-- <ul class="list-unstyled two-col clearfix"> --}}
-            <div class="row">
-                <div class="col col-md-4">
-                    <ul>
-                        <li>Outdoor recreation activities</li>
-                        <li>Cruise Lines</li>
-                        <li>Railways</li>
-                        <li>Package Tours</li>
-                        <li>Guide Books</li>
-                    </ul>
-                </div>
-                <div class="col col-md-4">
-                    <ul>
-                        <li>Airlines</li>
-                        <li>Car Rentals</li>
-                        <li>Hotels</li>
-                        <li>Travel Insurance</li>
-                        <li>Insurance</li>
-                    </ul>
-                </div>
-            </div>
+
             </div>
         </div>
       </div >
@@ -82,7 +63,7 @@
     <div class="container">
       <div class="row justify-content-center mb-5 ">
         <div class="col-md-6 text-center">
-          <h2 class="section-title mb-3 text-center">Team</h2>
+          <h2 class="section-title mb-3 text-center pt-5">Team</h2>
           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         </div>
       </div>

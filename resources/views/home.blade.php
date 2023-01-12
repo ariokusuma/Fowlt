@@ -63,7 +63,7 @@
         <!-- Kiri -->
         <div class="col sambutan">
                 <h1 class="text-start">Tumbuh Berkembang bersama <br> Fowlt.</h1>
-                <p class="text-start">Memajukan sektor peternakan ayam Indonesia dengan teknologi</p>
+                <p class="text-start" id="desc-prod">Memajukan sektor peternakan ayam Indonesia dengan teknologi</p>
 
                 <!-- Logo & Nama -->
                 <div class="container text-center pt-1">
@@ -116,7 +116,7 @@
             {{-- Kiri --}}
             <div class="col">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="/image/product/product1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Solusi Jual/Beli</h5>
                       <p class="card-text">Sebuah solusi layanan bagi para peternak ayam untuk dapat menjual hasil ternaknya kepada konsumen secara langsung yang saat ini tersebar di 3 kota yaitu, Bandung, Bogor, dan Yogyakarta.</p>
@@ -126,7 +126,7 @@
             {{-- Tengah --}}
             <div class="col">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="/image/product/product2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Solusi Teknologi ternak</h5>
                       <p class="card-text">Sebuah solusi layanan untuk mengimplementasikan teknologi tepat guna dalam sektor peternakan ayam yang dapat membantu keberhasilan dan maksimalnya hasil ternak.</p>
@@ -136,11 +136,10 @@
             {{-- Kanan --}}
           <div class="col">
             <div class="card mx-auto" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="/image/product/product3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Solusi untuk semua orang (Kabayan)</h5>
                   <p class="card-text">Sebuah solusi layanan bagi seluruh masyarakat Indonesia yang ingin memiliki usaha peternakan ayam namun belum memiliki modal usaha.</p>
-                  <br>
                 </div>
 
               </div>
