@@ -10,6 +10,7 @@ body {
 }
 
   .brand-wrapper {
+    text-align: center;
     margin-bottom: 19px; }
     .brand-wrapper .logo {
       height: 37px; }
@@ -27,17 +28,20 @@ body {
       -o-object-fit: cover;
          object-fit: cover; }
     .login-card .card-body {
-      padding: 85px 60px 60px; }
-      @media (max-width: 422px) {
+      padding: 55px 60px 60px; }
+      @media (max-width: 722px) {
         .login-card .card-body {
           padding: 35px 24px; } }
     .login-card-description {
+        text-align: center;
       font-size: 25px;
       color: #000;
       font-weight: normal;
       margin-bottom: 23px; }
     .login-card form {
-      max-width: 768px; }
+      max-width: 1268px;
+
+     }
     .login-card .form-control {
       border: 1px solid #d5dae2;
       padding: 15px 25px;
