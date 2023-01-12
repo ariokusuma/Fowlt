@@ -68,9 +68,9 @@
 
       @guest
       <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: #1a374d">
-        <div class="container-fluid">
+        <div class="container-fluid" id='logoUtama'>
           <a class="navbar-brand" href="/">
-            <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
+            <img src="/image/fowlt-logo.png" alt="Bootstrap" width="30" height="auto">
           </a>
 
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -51,20 +51,20 @@
                   <img src="/image/auth/loginn.jpg" alt="" class="img-fluid">
                 </div>
 
-                <p class="post-category">Teknologi</p>
+                <p class="post-category">Tips</p>
 
                 <h2 class="title">
-                  <a href="{{ url('artikel1') }}">Artikel 1</a>
+                  <a href="{{ url('artikel1') }}">Tata Cara Beternak Dengan Baik</a>
                 </h2>
 
-                <p class="post-category">Lorem ipsum dolor sit amet consectetur xixi <strong><a class="post-category text-heavy" href="#">Read More</a></strong></p>
+                <p class="post-category">Ayam petelur adalah ayam-ayam betina dewasa yang dipelihara secara khusus untuk diambil telurnya.  <strong><a class="post-category text-heavy" href="#">Read More</a></strong></p>
 
                 <div class="d-flex align-items-center">
                   <img src="/image/auth/loginn.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                   <div class="post-meta">
-                    <p class="post-author-list">Maria Doe</p>
+                    <p class="post-author-list">Fowlt</p>
                     <p class="post-date">
-                      <time datetime="2022-01-01">Jan 1, 2022</time>
+                      <time datetime="2022-01-01">Jan 1, 2023</time>
                     </p>
                   </div>
                 </div>

@@ -97,7 +97,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <p class="mb-0"><a href="{{ url('#') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Hubungi Kami </a></p>
+          <p class="mb-0"><a href="http://wa.me/62895609827665" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Hubungi Kami </a></p>
         </div>
       </div>
     </div>

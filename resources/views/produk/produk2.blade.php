@@ -65,7 +65,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/ivan2.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="image/product/smartfeeder.png" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0">Smart Feeder</h3>
             </div>
@@ -73,7 +73,7 @@
         </div>
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/hanif.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="image/product/smartcamera.png" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0"> Smart Camera Sensor </h3>
             </div>
@@ -82,7 +82,7 @@
 
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/ario.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="image/product/Thermohygrometer.jpg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0">Thermohygrometer</h3>
             </div>

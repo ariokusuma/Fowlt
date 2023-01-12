@@ -66,7 +66,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/ivan2.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="/image/product/ayamsegar.jpg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0">Ayam segar langsung dari peternak</h3>
             </div>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/hanif.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="image/product/hargaterjangkau.jpg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0">Harga yang terjangkau</h3>
             </div>
@@ -83,7 +83,7 @@
 
         <div class="col-lg-3 mb-4">
           <div class="team">
-            <img src="image/team/ario.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
+            <img src="image/product/kualitasayamterjamin.jpg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="fw-bold mb-0">Kualitas ayam yang terjamin</h3>
             </div>

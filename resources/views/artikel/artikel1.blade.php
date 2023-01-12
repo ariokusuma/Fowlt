@@ -50,52 +50,72 @@
               <img src="/image/auth/login.jpg" alt="" class="img-fluid">
             </div>
 
-            <h2 class="title">Artikel 1</h2>
+            <h2 class="title">Tata Cara Beternak Dengan Baik</h2>
 
             <div class="meta-top">
               <ul>
                 <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">Fowlt Team</a></li>
-                <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
+                <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2023</time></a></li>
               </ul>
             </div><!-- End meta top -->
 
             <div class="content">
               <p>
-                Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                Ayam petelur adalah ayam-ayam betina dewasa yang dipelihara secara khusus untuk diambil telurnya. Lebih lanjut dijelaskan bahwa ayam ras
+                petelur merupakan strain unggul yang mempunyai daya produktifitas yang tinggi, baik jumlah maupun bobot telurnya sehingga apabila diusahakan
+                dapat memberikan keuntungan kepada masyarakat menyatakan bahwa pada umumnya ayam ras petelur memiliki ciri-ciri; ukuran tubuh relatif kecil dan ramping,
+                cepat dewasa kelamin, tingkah laku linca, mudah terkejut, sensitif terhadap stres dan efisiensi dalam mengolah zat-zat makanan menjadi sebutir telur.
               </p>
 
               <p>
-                Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                Bagi pemula, memulai bisnis ayam petelur tentu membutuhkan panduan serta cara budidaya ayam petelur yang sesuai dengan kebutuhan. Untuk memulai skala pemula perlu memperhatikan dari segi biaya dan juga teknis kualitas yang digunakan.
               </p>
 
-              <blockquote>
-                <p>
-                  Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                </p>
-              </blockquote>
+            <p>Ada beberapa poin penting terkait membudidayakan ayam petelur skala pemula, salah satunya:</p>
+              <ul>
+                <li>menentukan jumlah ayam yang akan dibudidayakan</li>
+                <li>kualitas pakan</li>
+                <li>teknis perawatan</li>
+                <li>penanganan penyakit</li>
+              </ul>
 
               <p>
-                Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
-                Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque.
-                Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
+                
               </p>
 
-              <h3>Et quae iure vel ut odit alias.</h3>
+              <p>Berikut ini jenis ayam petelur yang bisa kalian pertimbangkan untuk dipilih sebagai jenis hewan budidaya Anda.</p>
+
+              <h3>1. Menentukan Jenis Ayam Petelur</h3>
               <p>
-                Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui.
-                Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
-                Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
+                Cara budidaya ayam petelur yang perlu dulur-dulur ketahui yaitu jenis pada ayam petelur. Ayam petelur terbagi dalam 2 jenis, yaitu Ayam Petelur Ringan dan Ayam Petelur Medium
               </p>
               <img src="/image/auth/loginn.jpg" class="img-fluid" alt="">
 
-              <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
+              <h3></h3>
               <p>
-                Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
-                Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+                a.	Jenis Ayam Petelur Ringan
+Ayam petelur ringan adalah jenis ayam petelur yang memiliki bobot badan yang ringan dibanding ayam petelur lainnya. Ayam ini juga disebut ayam petelur putih karena memang warnanya yang berwarna putih pun telurnya.
+Tubuh ayam ini relatif ramping dan kurus serta memiliki jengger berwarna merah. Hal ini karena ayam ini memang difokuskan untuk menghasilkan telur saja. Produksi telur yang dihasilkan dapat mencapai 260-280 butir per tahunnya.
+<br/>b.	Jenis Ayam Petelur Medium
+Berkebalikan dengan ayam petelur ringan, ayam petelur medium memiliki bobot badan yang lebih besar walau tidak lebih berat dari ayam pedaging seperti ayam broiler. Ayam ini adalah ayam tipe dwiguna karena selain menghasilkan telur mereka juga dapat dijual dagingnya.
+Kebanyakan ayam petelur ini memiliki bulu yang berwarna coklat seperti warna telurnya. Produksi telur yang dihasilkan dapat mencapai 270-290 butir per tahunnya.
+
               </p>
+              <h3>2.	Cara Budidaya Ayam Petelur Agar Cepat Bertelur</h3>
               <p>
-                Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                a.	Penentuan Sistem Kandang Ayam Petelur
+Menyiapkan kendang sebelum memulai budidaya, perlunya mengetahui jenis kendang yang tepat sebagai salah satu wujud untuk menunjang kesuksesan ternak ayam petelur.
+
+Kandang koloni berfungsi untuk menampung ayam dalam satu kelompok. Kandang ini digunakan untu menampung DOC atau ayam dewasa dalam jumlah banyak di setiap sekatnya.
+
+Anda bisa membudidayakan ayam pada kandang jenis ini dimulai saat ayam mulai masuk kandang hingga akhir produksinya. Kandang koloni banyak dipilih karena lebih menghemat lahan dan biaya pembuatan kendang
+
+<br/>b.	Menyiapkan Peralatan Kandang Ayam Petelur
+Cara budidaya ayam petelur selanjutnya yaitu dengan melengkapi peralatan yang ada pada kandang ayam. Peralatan tersebut yaitu tempat pakan, minum, ransum, tempat suplemen, sistem alat penerangan, litter (alas lantai), tempat bertelur dan tempat bertengger.
+
+<br/>c.	Pemilihan Bibit Ayam Petelur (DOC)
+Cara budidaya ayam petelur yang paling awal dan yang perlu diperhatikan adalah pemilihan bibit unggul. Hal ini bertujuan untuk menghasilkan produksi telur yang tinggi serta kualitas telurnya pun juga tinggi.
+
               </p>
 
             </div><!-- End post content -->
