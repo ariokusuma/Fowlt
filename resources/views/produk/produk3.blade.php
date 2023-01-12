@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         @section('title')
-        Fowlt | E-Fowlt Tech
+        Fowlt | E-Fowlt Loan
         @endsection
 
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
@@ -28,8 +28,10 @@
             <div class="col-lg-6 mx-auto text-center pt-5">
             <div class="intro-wrap">
                 <br/>
-                <h1 class="mb-0 text-white fw-bold">E-Fowlt Tech</h1>
-                <p class="text-white pt-3">Implementasi tekologi peternakan berbasis IoT untuk kemudahan dan peningkatan kualitas ternak dengan E-Fowlt Tech! Fowlt menjual dan menyediakan teknologi ternak berbasis IoT yang dapat membantu berbagai kegiatan peternakan yang dapat dipesan dan disesuaikan dengan setiap peternakan. Fowlt membuka konsultasi bagi para peternak yang ingin menggunakan E-Fowlt Tech</p>
+                <h1 class="mb-0 text-white fw-bold">E-Fowlt Loan</h1>
+                <p class="text-white pt-3">Dapatkan bantuan permodalan dari fowlt untuk para peternak dengan cepat dan mudah!
+                    E-Fowlt Loan adalah pinjaman modal usaha bagi peternak yang sudah/baru memulai usaha di Indonesia. Peternak bisa mendapatkan pakan, sarana, teknologi ternak terkini dengan sistem pembayaran tempo yang bisa dibayar nanti ketika panen ternak.
+                    </p>
                 <br>
             </div>
             </div>
@@ -58,35 +60,30 @@
     <div class="container">
       <div class="row justify-content-center mb-5 ">
         <div class="col-md-6 text-center">
-          <h2 class="fw-bold section-title mb-3 text-center">Keuntungan membeli produk <br/> di Fowlt Market</h2>
+          <h2 class="fw-bold section-title mb-3 text-center">Keuntungan membeli produk <br/> di E-Fowlt Loan</h2>
         </div>
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-lg-3 mb-4">
-          <div class="team">
-            <img src="image/team/ivan2.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
-            <div class="px-3">
-              <h3 class="fw-bold mb-0">Ayam segar langsung dari peternak</h3>
+        <div class="col-lg-3 mb-4 keuntungan">
+            <h3>Keuntungan</h3>
+            <div>
+                <ul>
+                    <li>Pinjaman modal dalam bentuk dana usaha, pakan, sarana, ataupun teknologi ternak</li>
+                    <li>Memberikan pendanaan hingga 1 miliar rupiah</li>
+                    <li>Termin pembayaran tempo yang bisa dibayar secara fleksibel.</li>
+                  </ul>
             </div>
-          </div>
         </div>
-        <div class="col-lg-3 mb-4">
-          <div class="team">
-            <img src="image/team/hanif.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
-            <div class="px-3">
-              <h3 class="fw-bold mb-0">Harga yang terjangkau</h3>
+        <div class="col-lg-3 mb-4 syarat">
+            <h3>Syarat</h3>
+            <div>
+                <ul>
+                    <li>Calon peternak berusia 20 – 50 tahun</li>
+                    <li>Memiliki pengalaman berternak atau sudah menjalankan peternakan > 2 tahun untuk peminjaman > 350 Juta</li>
+                    <li>Tidak memiliki Riwayat hutang atau pinjaman buruk pada Lembaga keuangan perbankan yang terdaftar di OJK ataupun tidak</li>
+                  </ul>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 mb-4">
-          <div class="team">
-            <img src="image/team/ario.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
-            <div class="px-3">
-              <h3 class="fw-bold mb-0">Kualitas ayam yang terjamin</h3>
-            </div>
-          </div>
         </div>
       </div>
 

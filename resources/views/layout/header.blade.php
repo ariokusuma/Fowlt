@@ -54,7 +54,7 @@
             <a class=" btn btn-light" href="{{ route('logout') }}">Log Out</a>
         </div> -->
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profile
           </button>
           <ul class="dropdown-menu me-5">
