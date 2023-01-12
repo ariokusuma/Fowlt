@@ -66,6 +66,19 @@ Route::get('/', function () {
         return view('artikel.artikel1');
     });
 
+    Route::get('/produk1', function () {
+        return view('produk.produk1');
+    });
+
+
+    Route::get('/produk2', function () {
+        return view('produk.produk2');
+    });
+
+    Route::get('/produk3', function () {
+        return view('produk.produk3');
+    });
+
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');
 

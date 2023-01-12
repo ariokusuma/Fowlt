@@ -89,9 +89,9 @@
 {{-- ============================================ --}}
                 <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
-                    <li><a href="#">Solusi Jual/Beli</a></li>
-                    <li><a href="#">Solusi Teknologi ternak</a></li>
-                    <li><a href="#">Solusi untuk semua orang</a></li>
+                    <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
+                    <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>
+                    <li><a href="{{ url('produk3') }}">Solusi untuk semua orang</a></li>
                     </ul>
                 </li>
 {{-- ============================================ --}}
