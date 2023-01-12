@@ -81,15 +81,23 @@ class UserController extends Controller
         ]);
         $user = User::find(Auth::id());
 
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->uname = $request->uname;
-        $user->nohp = $request->nohp;
-        $user->lokasi = $request->lokasi;
+        $user->update([
+            'name' => $request->name,
+            'email' => $request->email,
+            'uname' => $request->uname,
+            'nohp' => $request->nohp,
+            'lokasi' => $request->lokasi,
+        ]);
+        // $user->name = $request->name;
+        // $user->email = $request->email;
+        // $user->uname = $request->uname;
+        // $user->nohp = $request->nohp;
+        // $user->lokasi = $request->lokasi;
 
         $user->save();
         $request->session()->regenerate();
-        return back()->with('success', 'Data Berhasil Di-Update');
+        // return back()->with('success', 'Data Berhasil Di-Update');
+        return redirect()->route('profile');
     }
 
     public function logout(Request $request)

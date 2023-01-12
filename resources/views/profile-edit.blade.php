@@ -37,7 +37,7 @@
 </div>
 
 <div class="container rounded mt-5 mb-5" style="background-color: rgba(0, 0, 0, 0.1)">
-    <form action="{{ route('profile.action') }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('profile.action') }}" method="POST">
         @csrf
         <div class="row">
             {{-- <div class="col-md-3 border-right">
@@ -50,17 +50,17 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Username</label>
-                        <input type="text" class="form-control" name = "uname" placeholder="" value="{{ Auth::user()->uname }}"></div>
+                        <input type="text" class="form-control" name = "uname" id = "uname" placeholder="" value="{{ Auth::user()->uname }}"></div>
 
                         <div class="col-md-12"><label class="labels">Email</label>
-                        <input type="text" class="form-control" name = "email" placeholder="" value="{{ Auth::user()->email }}"></div>
+                        <input type="text" class="form-control" name = "email" id = "email" placeholder="" value="{{ Auth::user()->email }}"></div>
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Nama Lengkap</label>
-                        <input type="text" class="form-control" name = "name" placeholder="" value="{{ Auth::user()->name }}"></div>
+                        <input type="text" class="form-control" name = "name" id = "name" placeholder="" value="{{ Auth::user()->name }}"></div>
                         
                         <div class="col-md-12"><label class="labels">No. HP</label>
-                        <input type="text" class="form-control" name = "nohp" placeholder="" value="{{ Auth::user()->nohp }}"></div>
+                        <input type="text" class="form-control" name = "nohp" id = "nohp" placeholder="" value="{{ Auth::user()->nohp }}"></div>
                         
                         <div class="col-md-12"><label class="labels">Lokasi</label>
                         <select class="form-select" aria-label="Default select example" id="lokasi" name="lokasi">
