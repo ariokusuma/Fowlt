@@ -1,14 +1,23 @@
 body{
     color: #ffffff;
     /* font-family: 'Mada', sans-serif; */
-    font-family: 'Rowdies', cursive;
+    /* font-family: 'Rowdies', cursive; */
 }
 #aboutUSDetail{
     color: #000000;
+
+}
+#aboutUSDetail p {
+    font-size: 17px;
+    text-align: justify;
 }
 
 #ourTeams {
     color: #000000;
+}
+
+#produkKami {
+    text-align: center;
 }
 
 #testimonials {
@@ -20,12 +29,12 @@ body{
 }
 
 body p {
-    font-family: 'Rubik', sans-serif;
-    size: 10px;
+    /* font-family: 'Rubik', sans-serif; */
+    size: 12px;
 }
 
 body li {
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
 }
 
 /* .autent { */
@@ -248,3 +257,37 @@ body li {
       .btn.btn-outline-white:hover {
         background: #ffffff;
         color: #1A374D !important; }
+
+
+
+
+
+
+
+
+        /* ===================
+        Testimonials
+        =================== */
+.testimonial-section {
+  background: #f8f9fa;
+  padding-top: 5rem !important;
+  padding-bottom: 7rem !important; }
+.testimonial {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 30px; }
+  .testimonial .name {
+    font-size: 18px;
+    color: #000000; }
+  .testimonial .img-wrap img {
+    margin: 0 auto;
+    width: 70px;
+    border-radius: 50%; }
+
+    .testimonial-section p {
+        font-size: 17px;
+    }
+
+#testiname {
+    font-size: 21px;
+}

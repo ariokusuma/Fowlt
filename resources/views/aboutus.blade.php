@@ -12,17 +12,15 @@
         Fowlt | About Us
         @endsection
 
-    {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    {{-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet"> --}}
 </head>
 <body>
 
 
-    <div class="hero hero-inner "  style="background-color: #1a374d">
+    <div class="hero hero-inner " style="background-color: #1a374d">
         <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mx-auto text-center pt-5">
@@ -48,7 +46,6 @@
         <div class="col-lg-5 pl-lg-5 ml-auto ">
           <h2 class="section-title mb-4 pt-5">About Fowlt</h2>
           <p>Fowlt adalah perusahaan berbasis teknologi yang hadir untuk membantu dan mensejahterakan peternak ayam di Indonesia. Kami percaya dengan adanya teknologi yang Kami kembangkan dapat sangat membantu para peternak, Kami juga menyediakan tempat untuk melakukan jual beli antara peternak dengan konsumen, selain itu Kami menjadi salah satu solusi permodalan bagi para calon pengusaha yang ingin terjun ke dunia ternak. Kami percaya bahwa Kami akan turut ikut serta dalam peningkatan kualitas ternak di Indonesia dan semua masyarakat berhak mengkonsumsi daging ayam dengan kualitas yang baik namun dengan harga yang terjangkau.</p>
-          {{-- <ul class="list-unstyled two-col clearfix"> --}}
 
             </div>
         </div>
@@ -58,13 +55,13 @@
 
 {{-- TEAMS --}}
 
+<section id="timkami">
 
   <div class="Teams-section pt-5" id="ourTeams">
     <div class="container">
       <div class="row justify-content-center mb-5 ">
         <div class="col-md-6 text-center">
-          <h2 class="section-title mb-3 text-center pt-5">Team</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <h2 class="section-title mb-3 text-center pt-5">Our Team</h2>
         </div>
       </div>
 
@@ -111,7 +108,7 @@
 
     </div>
   </div>
-
+</section>
 
 
 {{-- TESTIMONIALS --}}
@@ -125,31 +122,31 @@
           <div class="owl-single owl-carousel no-nav">
             <div class="testimonial mx-auto">
               <figure class="img-wrap">
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                <img src="/image/testimonials/testi-11.png" alt="andre" class="img-fluid">
               </figure>
-              <h3 class="name">Adam Aderson</h3>
+              <h3 class="name" id="testiname">Andrew Wiggins</h3>
               <blockquote>
-                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <p>&ldquo;Terimakasih fowlt, proses pendanaan yang tidak memudahkan, sangat supportive alhamdulillah usaha saya sudah berjalan lancar&rdquo;</p>
               </blockquote>
             </div>
 
             <div class="testimonial mx-auto">
               <figure class="img-wrap">
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                <img src="/image/testimonials/testi-21.png" alt="Image" class="img-fluid">
               </figure>
-              <h3 class="name">Lukas Devlin</h3>
+              <h3 class="name" id="testiname">Siti Fatimah</h3>
               <blockquote>
-                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <p>&ldquo;Sempet ragu buat implementasi smart feeding tahun lalu, tapi setelah konsultasi dan pakai. Luar biasa deh, speechless GG&rdquo;</p>
               </blockquote>
             </div>
 
             <div class="testimonial mx-auto">
               <figure class="img-wrap">
-                <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+                <img src="/image/testimonials/testi-31.png" alt="Image" class="img-fluid">
               </figure>
-              <h3 class="name">Kayla Bryant</h3>
+              <h3 class="name" id="testiname">Atep Sumadi</h3>
               <blockquote>
-                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <p>&ldquo;Panemi kemarin saya sempet bingung mau jual ayam dimana, demand juga berkurang. Iseng cari platform buat jual/beli. Alhamdulillah ada fowlt&rdquo;</p>
               </blockquote>
             </div>
 
@@ -165,10 +162,9 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h2 class="mb-2 text-white">Lets you Explore the Best. Contact Us Now</h2>
-          <p class="mb-4 lead text-white text-white-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?</p>
-          {{-- <p class="mb-0"><a href="{{ url('jualternak') }}" class="btn btn-outline-light text-white btn-md font-weight-bold rounded-pill"> Get in touch </a></p> --}}
-          <p class="mb-0"><a href="{{ url('jualternak') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Hubungi Kami </a></p>
+          <h2 class="mb-2 text-white">Lihat lebih lanjut produk yang ditarawkan oleh Fowlt!</h2>
+          <p class="mb-4 lead text-white text-white-opacity"></p>
+          <p class="mb-0"><a href="{{ url('/#bagian2') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Produk Kami </a></p>
         </div>
       </div>
     </div>

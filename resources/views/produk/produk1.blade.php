@@ -27,9 +27,9 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mx-auto text-center pt-5">
             <div class="intro-wrap">
-                <br/> <br/> <br/> <br/>
+                <br/>
                 <h1 class="mb-0 text-white fw-bold">Fowlt Market</h1>
-                <p class="text-white">Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari Kita untuk Kita.</p>
+                <p class="text-white pt-3">Jual/beli ayam segar dan jumlah yang banyak lebih mudah dengan E-Folwt Market! <br>Fowlt memastikan ayam yang dijual adalah ayam yang memiliki kualitas terbaik dari hasil panen para peternak yang andal. Penuhi supply ayam dengan lebih mudah dan murah tanpa perantara dengan E-Fowlt Market.</p>
                 <br>
             </div>
             </div>
@@ -46,7 +46,7 @@
             <img src="image/slider1.jpg" alt="slider1" class="rounded-4" width="Automatic" height="390">
           </div>
         </div>
-        
+
       </div >
     </div>
   </div>
@@ -54,12 +54,11 @@
 {{-- TEAMS --}}
 
 
-  <div class="Teams-section pt-5" id="ourTeams">
+  <div class="Teams-section pt-5" id="produkKami">
     <div class="container">
       <div class="row justify-content-center mb-5 ">
         <div class="col-md-6 text-center">
           <h2 class="fw-bold section-title mb-3 text-center">Keuntungan membeli produk <br/> di Fowlt Market</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         </div>
       </div>
 
@@ -68,8 +67,7 @@
           <div class="team">
             <img src="image/team/ivan2.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Ivan Maulana Razzaq</h3>
-              <p>Co-Founder &amp; Project Manager</p>
+              <h3 class="fw-bold mb-0">Ayam segar langsung dari peternak</h3>
             </div>
           </div>
         </div>
@@ -77,8 +75,7 @@
           <div class="team">
             <img src="image/team/hanif.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Nasywan Hanif</h3>
-              <p>Co-Founder &amp; System Analyst</p>
+              <h3 class="fw-bold mb-0">Harga yang terjangkau</h3>
             </div>
           </div>
         </div>
@@ -87,8 +84,7 @@
           <div class="team">
             <img src="image/team/ario.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Ario Kusuma Purboyo</h3>
-              <p>Co-Founder &amp; Front-End Programmer</p>
+              <h3 class="fw-bold mb-0">Kualitas ayam yang terjamin</h3>
             </div>
           </div>
         </div>
@@ -98,7 +94,7 @@
   </div>
 
 
-<!-- 
+<!--
 {{-- TESTIMONIALS --}}
 
   <div class="Testimonials-section testimonial-section mt-5 pt-5" id="testimonials">
@@ -150,8 +146,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h2 class="mb-2 text-white">Jelajahi produk yang menggunakan jasa Fowlt</h2> <br/>
-          <p class="mb-0"><a href="{{ url('belanja') }}" class="btn btn-light text-black btn-md font-weight-bold rounded"> Belanja Sekarang </a></p>
+          <p class="mb-0"><a href="{{ url('#') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Belanja Sekarang </a></p>
         </div>
       </div>
     </div>

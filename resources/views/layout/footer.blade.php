@@ -21,7 +21,7 @@
             <div class="row mx-auto">
               <div class="col-md-8 col-lg-4 mx-auto">
                 <div class="widget">
-                  <h3 class="heading">About Tour</h3>
+                  <h3 class="heading">About Fowlt</h3>
                   <p>Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari kita untuk kita.</p>
                 </div>
                 <div class="widget">
@@ -59,7 +59,7 @@
           <div class="container">
             <div class="row text-center">
               <div class="col-md-8 mb-3 mb-md-0 mx-auto ">
-                <p>&mdash; Designed with love by <a href="/" class="link-highlight">Kelompok 1</a> &mdash;
+                <p>&mdash; Designed with love by <a href="aboutus#timkami" class="link-highlight">Kelompok 1</a> &mdash;
                 </p>
               </div>
 

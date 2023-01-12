@@ -14,8 +14,8 @@
         @endsection
 
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="icon" href="{{ url('/image/favicon.png') }}">
+    {{-- <link rel="shortcut icon" href="favicon.png"> --}}
+    {{-- <link rel="icon" href="{{ url('/image/favicon.png') }}"> --}}
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" href="/css/home.css"> --}}
