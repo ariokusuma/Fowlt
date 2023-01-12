@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\DB;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -106,3 +107,4 @@ Route::get('logout', [UserController::class, 'logout'])->name('logout');
 
 Route::get('/jualternak', [ProductController::class, 'tampil'])->name('tampil');
 Route::post('/jualternak', [ProductController::class, 'store'])->name('product.store');
+Route::get('/belanja', [ProductController::class, 'ambil'])->name('ambil');

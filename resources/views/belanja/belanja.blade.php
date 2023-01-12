@@ -56,7 +56,7 @@
      <div class="container text-start">
         <div class="row">
             {{-- Kiri --}}
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card" style="width: 18rem;">
                     <img src="/image/market/chicken.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -66,21 +66,32 @@
                         <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
                     </div>
                   </div>
-            </div>
+            </div> -->
             {{-- Tengah --}}
+            @foreach($ambil as $data)
+            @forelse ($products as $product)
+                    @php 
+                        $bid = DB::table('products')
+                            ->where('id', $data->id)
+                            ->first();
+                    @endphp
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="/image/market/chicken.jpg" class="card-img-top" alt="...">
+                    <img src="image/{{ $data -> gambar }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Ayam Kampung</p>
-                        <h4 class="card-title">Rp50.000</h4>
-                        <p class="card-text">Bandung</p>
+                      
+                        <p class="card-text">{{ $data -> name }}</p>
+                        <h4 class="card-title">Rp{{ $data -> harga }}</h4>
+                        <p class="card-text">{{ $data -> lokasi }}</p>
                         <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
+                      
                     </div>
                   </div>
             </div>
+            @endforeach
+            @endforelse
             {{-- Kanan --}}
-          <div class="col">
+          <!-- <div class="col">
             <div class="card" style="width: 18rem;">
                 <img src="/image/market/chicken.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -129,7 +140,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
         </section>
     @endguest

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\User;
+use DB;
 use Illuminate\Http\Request;
 use App\Models\Products;
 use Illuminate\Support\Facades\Auth;
@@ -33,4 +34,11 @@ class ProductController extends Controller
 
         return redirect('jualternak');
     }
+
+    public function ambil(){
+        $ambil = DB::select('select * from products');
+        return view ('belanja.belanja')->with('ambil',$ambil);
+    }
+
+    
 }
