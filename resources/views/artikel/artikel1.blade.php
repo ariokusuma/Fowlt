@@ -40,7 +40,7 @@
   <section id="blog" class="blog">
     <div class="container" data-aos="fade-up">
 
-      <div class="row g-5">
+      <div class="row g-5 justify-content-center">
 
         <div class="col-lg-8">
 
