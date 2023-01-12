@@ -19,9 +19,9 @@
 
 
         <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: #1a374d">
-        <div class="container-fluid">
+        <div class="container-fluid" id='logoUtama'>
           <a class="navbar-brand" href="/">
-            <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
+            <img src="/image/fowlt-logo.png" alt="Bootstrap" width="30" height="auto">
           </a>
 
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,11 +53,11 @@
         <!-- <div class="justify-content-center" id="navbarNavAltMarkup">
             <a class=" btn btn-light" href="{{ route('logout') }}">Log Out</a>
         </div> -->
-        <div class="dropdown">
+        <div class="dropdown" id='profiluser'>
           <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profile
           </button>
-          <ul class="dropdown-menu me-5">
+          <ul class="dropdown-menu me-5 "style="max-width: 8px;">
             <li><a class="dropdown-item " href="{{ url('profile') }}">Profile</a></li>
             <li><a class="dropdown-item" href="{{ route('logout') }}">Logout</a></li>
           </ul>

@@ -39,10 +39,10 @@
                         <div class="row"  id="semuaTombol">
                             {{-- kiri --}}
                             <div class="col">
-                                <a type="button" class="btn btn-light" href="{{ url('belanja') }}" id = "detilTombol">Jual/Beli</a>
+                                <p class="mb-0"><a href="{{ url('belanja') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Jual/Beli </a></p>
                             </div>
                             <div class="col">
-                                <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Fowlt</a>
+                                <p class="mb-0"><a href="{{ url('aboutus') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Tentang Fowlt </a></p>
                             </div>
                             {{-- kanan --}}
                             {{-- <div class="col">
@@ -140,10 +140,10 @@
                         <div class="row"  id="semuaTombol">
                             {{-- kiri --}}
                             <div class="col">
-                                <a type="button" class="btn btn-light" href="{{ url('belanja') }}" id = "detilTombol">Jual/Beli</a>
+                                <p class="mb-0"><a href="{{ url('belanja') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Tentang Fowlt </a></p>
                             </div>
                             <div class="col">
-                                <a type="button" class="btn btn-light" href="{{ url('aboutus') }}" id = "detilTombol">Tentang Fowlt</a>
+                                <p class="mb-0"><a href="{{ url('aboutus') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Tentang Fowlt </a></p>
                             </div>
                             {{-- kanan --}}
                             {{-- <div class="col">

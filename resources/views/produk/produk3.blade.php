@@ -65,7 +65,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-lg-3 mb-4 keuntungan">
+        <div class="col-lg-6 mb-4 keuntungan">
             <h3>Keuntungan</h3>
             <div>
                 <ul>
@@ -75,7 +75,7 @@
                   </ul>
             </div>
         </div>
-        <div class="col-lg-3 mb-4 syarat">
+        <div class="col-lg-6 mb-4 syarat">
             <h3>Syarat</h3>
             <div>
                 <ul>

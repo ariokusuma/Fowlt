@@ -70,6 +70,15 @@ body li {
 
 }
 
+#logoUtama {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#profiluser {
+    margin-top: 5px;
+    margin-right: 45px;
+}
 /* .teksawalan { */
 #bagian2 {
     color: #000000;
@@ -158,10 +167,10 @@ body li {
     .navbar .dropdown ul {
       display: block;
       position: absolute;
-      left: 28px;
+      left: 1px;
       top: calc(100% + 30px);
-      margin: 0;
-      padding: 10px 0;
+      margin: 0px 10px 5px 5px;
+      padding: 5px 5px 5px 5px;
       z-index: 99;
       opacity: 0;
       visibility: hidden;
@@ -205,12 +214,14 @@ body li {
       top: 0;
       left: calc(100% - 30px);
       visibility: hidden;
+
     }
 
     .navbar .dropdown .dropdown:hover>ul {
       opacity: 1;
       top: 0;
       left: 100%;
+
       visibility: visible;
     }
   }
@@ -221,7 +232,7 @@ body li {
     }
 
     .navbar .dropdown .dropdown:hover>ul {
-      left: -100%;
+      left: -10%;
     }
   }
 
@@ -295,4 +306,14 @@ body li {
 #produkKami h3{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 21px;
 }
+#produkKami ul{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#produkKami li{
+    margin-bottom: 10px;
+}
+
