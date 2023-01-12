@@ -54,13 +54,13 @@
                         {{-- username --}}
                         <div class="form-group">
                           <label for="uname" class="form-label">Username</label>
-                          <input type="text" name="uname" id="uname" class="form-control" placeholder="Nama Lengkap Anda">
+                          <input type="text" name="uname" id="uname" class="form-control" placeholder="Username Anda">
                       </div>
                       </div>
                       <div class="col">
                         {{-- kodingan disini --}}
                         {{-- Lokasi--}}
-                        <label for="lokasi">Lokasi :<select class="form-select" aria-label="Default select example" id="lokasi">
+                        <label for="lokasi">Lokasi :<select class="form-select" aria-label="Default select example" id="lokasi" name="lokasi">
                             <option selected>Pilih Lokasi</option>
                             <option value="Bandung">Bandung</option>
                             <option value="Yogyakarta">Yogyakarta</option>

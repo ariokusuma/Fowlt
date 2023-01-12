@@ -50,23 +50,29 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Username</label>
-                        <input type="text" class="form-control kolomNormal" placeholder="" value="{{ Auth::user()->uname }}" readonly></div>
+                        <input type="text" class="form-control" name = "uname" placeholder="" value="{{ Auth::user()->uname }}"></div>
 
                         <div class="col-md-12"><label class="labels">Email</label>
-                        <input type="text" class="form-control kolomNormal" placeholder="" value="{{ Auth::user()->email }}" readonly></div>
+                        <input type="text" class="form-control" name = "email" placeholder="" value="{{ Auth::user()->email }}"></div>
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Nama Lengkap</label>
-                        <input type="text" class="form-control kolomNormal" placeholder="" value="{{ Auth::user()->name }}" readonly></div>
+                        <input type="text" class="form-control" name = "name" placeholder="" value="{{ Auth::user()->name }}"></div>
                         
                         <div class="col-md-12"><label class="labels">No. HP</label>
-                        <input type="text" class="form-control kolomNormal" placeholder="" value="{{ Auth::user()->nohp }}" readonly></div>
+                        <input type="text" class="form-control" name = "nohp" placeholder="" value="{{ Auth::user()->nohp }}"></div>
                         
                         <div class="col-md-12"><label class="labels">Lokasi</label>
-                        <input type="text" class="form-control kolomNormal" placeholder="Lokasi" value="{{ Auth::user()->lokasi }}" readonly></div>
+                        <select class="form-select" aria-label="Default select example" id="lokasi" name="lokasi">
+                            <option selected>{{ Auth::user()->lokasi }}</option>
+                            <option value="Bandung">Bandung</option>
+                            <option value="Yogyakarta">Yogyakarta</option>
+                            <option value="Bogor">Bogor</option>
+                          </select>
 
                     <div class="mt-5 text-center">
-                        <a class="btn btn-primary profile-button" type="button" href="{{ url('profile-edit') }}">Edit Profile</a></div>
+                        <input name="profile" id="profile" class="btn btn-primary profile-button" type="submit" value="Save Profile">
+                    </div>
                 </div>
             </div>
             {{-- <div class="col-md-4">

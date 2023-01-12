@@ -21,6 +21,9 @@ class UserController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|unique:users',
+            'uname' => 'required|unique:users',
+            'nohp' => 'required',
+            'lokasi' => 'required',
             'password' => 'required',
             'konfSandi' => 'required|same:password',
         ]);
@@ -28,8 +31,12 @@ class UserController extends Controller
         $user = new User([
             'name' => $request->name,
             'email' => $request->email,
+            'uname' => $request->uname,
+            'nohp' => $request->nohp,
+            'lokasi' => $request->lokasi,
             'password' => Hash::make($request->password),
         ]);
+
         $user->save();
 
         return redirect()->route('login')->with('success', 'Registrasi Berhasil!');
@@ -57,23 +64,29 @@ class UserController extends Controller
         ]);
     }
 
-    public function password()
+    public function profile()
     {
-        return view('password');
+        return view('profile');
     }
 
-    public function password_action(Request $request)
+    public function profile_action(Request $request)
     {   
          
         $request->validate([
             'name' => 'required',
-            'old_password' => 'required|current_password',
-            'new_password' => 'required|confirmed',
+            'email' => 'required|unique:users',
+            'uname' => 'required|unique:users',
+            'nohp' => 'required',
+            'lokasi' => 'required',
         ]);
         $user = User::find(Auth::id());
-        $user->nama = $request->name;
-        $user->no_hp = $request->no_hp;
-        $user->password = Hash::make($request->new_password);
+
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->uname = $request->uname;
+        $user->nohp = $request->nohp;
+        $user->lokasi = $request->lokasi;
+
         $user->save();
         $request->session()->regenerate();
         return back()->with('success', 'Data Berhasil Di-Update');

@@ -54,10 +54,18 @@
         </div>
 
         {{-- Login Button --}}
-        <div class="justify-content-center" id="navbarNavAltMarkup">
+        <!-- <div class="justify-content-center" id="navbarNavAltMarkup">
             <a class=" btn btn-light" href="{{ route('logout') }}">Log Out</a>
+        </div> -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle me-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profile
+          </button>
+          <ul class="dropdown-menu me-5">
+            <li><a class="dropdown-item " href="{{ url('profile') }}">Profile</a></li>
+            <li><a class="dropdown-item" href="{{ route('logout') }}">Logout</a></li>
+          </ul>
         </div>
-
         </div>
       </nav>
       @endauth

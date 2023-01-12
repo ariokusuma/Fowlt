@@ -42,3 +42,8 @@ body {
     cursor: pointer;
     border: solid 1px #BA68C8
 }
+
+input[readonly].kolomNormal{
+    background-color:white;
+    font-size: 1em;
+}
