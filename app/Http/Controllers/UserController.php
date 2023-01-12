@@ -72,13 +72,13 @@ class UserController extends Controller
     public function profile_action(Request $request)
     {   
          
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|unique:users',
-            'uname' => 'required|unique:users',
-            'nohp' => 'required',
-            'lokasi' => 'required',
-        ]);
+        // $request->validate([
+        //     'name' => 'required',
+        //     'email' => 'required|unique:users',
+        //     'uname' => 'required|unique:users',
+        //     'nohp' => 'required',
+        //     'lokasi' => 'required',
+        // ]);
         $user = User::find(Auth::id());
 
         $user->update([
@@ -88,6 +88,7 @@ class UserController extends Controller
             'nohp' => $request->nohp,
             'lokasi' => $request->lokasi,
         ]);
+        
         // $user->name = $request->name;
         // $user->email = $request->email;
         // $user->uname = $request->uname;

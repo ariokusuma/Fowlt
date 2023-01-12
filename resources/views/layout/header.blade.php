@@ -16,7 +16,7 @@
 
     {{-- Navbar --}}
 @auth
-    <nav class="navbar navbar-expand-lg" style="background-color:  #1a374d">
+    <!-- <nav class="navbar navbar-expand-lg" style="background-color:  #1a374d">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
             <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
@@ -51,6 +51,37 @@
                 <a class="nav-link text-white" href="#">Marketplace</a>
 
             </div>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: #1a374d">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
+          </a>
+
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        {{-- Navbar --}}
+            <div class="navbar-nav">
+                <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
+              <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
+
+{{-- ============================================ --}}
+                <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                    <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
+                    <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>
+                    <li><a href="{{ url('produk3') }}">Solusi untuk semua orang</a></li>
+                    </ul>
+                </li>
+{{-- ============================================ --}}
+              {{-- <a class="nav-link text-white" href="#">HubungiKami</a> --}}
+              <a class="nav-link text-white" href="#">Belanja</a>
+              <a class="nav-link text-white" href="{{ url('artikel') }}">Artikel</a>
+            </div>
+
         </div>
 
         {{-- Login Button --}}
@@ -58,7 +89,7 @@
             <a class=" btn btn-light" href="{{ route('logout') }}">Log Out</a>
         </div> -->
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle me-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profile
           </button>
           <ul class="dropdown-menu me-5">
