@@ -15,8 +15,13 @@ body{
     color: #000000;
 }
 
+#desc-prod {
+    font-size: 18px;
+}
+
 body p {
     font-family: 'Rubik', sans-serif;
+    size: 10px;
 }
 
 body li {
@@ -41,7 +46,7 @@ body li {
 
 #bagian1 #gambarHeading #iniGambar{
     margin-top: 27px;
-    border-radius: 12%;
+    border-radius: 4%;
 }
 
 #bagian1 #detilTombol {
@@ -114,13 +119,14 @@ body li {
     }
 
     .navbar>ul>li>a:before {
+        font-weight: 100;
       content: "";
       position: absolute;
       width: 100%;
       height: 2px;
       bottom: -6px;
       left: 0;
-      background-color: var(--color-secondary);
+      background-color: #eb1451;
       visibility: hidden;
       width: 0px;
       transition: all 0.3s ease-in-out 0s;
@@ -137,7 +143,7 @@ body li {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-      color: #fff;
+      color: #ffff;
     }
 
     .navbar .dropdown ul {
@@ -150,19 +156,21 @@ body li {
       z-index: 99;
       opacity: 0;
       visibility: hidden;
-      background: #fff;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      background: #ffff;
+      box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
       transition: 0.3s;
       border-radius: 4px;
     }
 
     .navbar .dropdown ul li {
       min-width: 200px;
+      font-weight: 100;
     }
 
     .navbar .dropdown ul a {
       padding: 10px 20px;
       font-size: 15px;
+      font-weight: bold;
       text-transform: none;
       font-weight: 600;
       color: #006a5d;
@@ -175,7 +183,7 @@ body li {
     .navbar .dropdown ul a:hover,
     .navbar .dropdown ul .active:hover,
     .navbar .dropdown ul li:hover>a {
-      color: var(--color-secondary);
+      color: #eb1451;
     }
 
     .navbar .dropdown:hover>ul {
@@ -216,3 +224,27 @@ body li {
     }
   }
 
+
+
+.btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 14px; }
+    .btn:active, .btn:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .btn.btn-primary {
+      background: #1A374D;
+      border-color: #1A374D; }
+      .btn.btn-primary:hover {
+        border-color: #1f425c;
+        background: #1f425c; }
+    .btn.btn-outline-white {
+      border: 2px solid #ffffff; }
+      .btn.btn-outline-white:hover {
+        background: #ffffff;
+        color: #1A374D !important; }

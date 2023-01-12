@@ -69,7 +69,7 @@
               <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
 
 {{-- ============================================ --}}
-                <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <li class="dropdown"><a ><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
                     <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
                     <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>
@@ -118,7 +118,7 @@
               <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
 
 {{-- ============================================ --}}
-                <li class="dropdown"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <li class="dropdown text-white"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
                     <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
                     <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>

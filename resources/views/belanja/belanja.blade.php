@@ -31,7 +31,7 @@
             <div class="intro-wrap">
                 <h1 class="mb-0 text-white">E-Fowlt Market</h1>
                 <p class="text-white">Jual/beli ayam segar dan jumlah yang banyak lebih mudah dengan E-Folwt Market ! </p>
-                <p class="mb-0"><a href="{{ url('jualternak') }}" class="btn btn-outline-light text-white btn-md font-weight-bold rounded-pill"> Jual Hasil Ternak Anda </a></p>
+                <p class="mb-0"><a href="{{ url('jualternak') }}" class="btn btn-outline-white text-white btn-md font-weight-bold rounded-pill"> Jual Hasil Ternak Anda </a></p>
                 <br>
             </div>
             </div>

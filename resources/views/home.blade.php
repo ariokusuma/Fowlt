@@ -14,6 +14,7 @@
         @endsection
 
     {{-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> --}}
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" href="/css/home.css"> --}}
@@ -48,7 +49,7 @@
             <!-- Kanan -->
 
             <div class="col">
-                <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
+                <img src="/image/landing.jpg" class="rounded" alt="logo-ead" width="Automatic" height="390">
             </div>
         </div>
     </div>
@@ -86,11 +87,8 @@
             <!-- Kanan -->
             <div class="col-lg-5" id="gambarHeading">
                 <div class="slides" >
-                    <img src="image/auth/login.jpg" alt="Image" class="img-fluid active" id="iniGambar">
-                    {{-- <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
-                    <img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
-                    <img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
-                    <img src="images/hero-slider-5.jpg" alt="Image" class="img-fluid"> --}}
+                    <img src="image/landing.jpg" alt="Image" class="img-fluid active" id="iniGambar">
+
                 </div>
             </div>
         </div>
@@ -108,8 +106,8 @@
 		<div class="container">
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-6 text-center">
-					<h2 class="section-title text-center mb-3">Our Services</h2>
-					<p>Solusi kami untuk sektor peternakan Indonesia</p>
+					<h2 class="section-title text-center mb-3">Produk Kami</h2>
+					<p id='desc-prod'>Solusi kami untuk sektor peternakan Indonesia</p>
 				</div>
 			</div>
      {{-- Grids --}}
