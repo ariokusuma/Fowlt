@@ -105,6 +105,10 @@ Route::post('profil-edit', [UserController::class, 'profile_action'])->name('pro
 
 Route::get('logout', [UserController::class, 'logout'])->name('logout');
 
-Route::get('/jualternak', [ProductController::class, 'tampil'])->name('tampil');
+Route::get('/jualternak', [ProductController::class, 'create'])->name('create');
 Route::post('/jualternak', [ProductController::class, 'store'])->name('product.store');
 Route::get('/belanja', [ProductController::class, 'ambil'])->name('ambil');
+
+Route::resource('/belanja', ProductController::class);
+
+Route::get('/detailproduk', [ProductController::class, 'detail'])->name('detail');

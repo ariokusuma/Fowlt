@@ -36,8 +36,8 @@
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <div class="s_product_text">
-                    <h3>Ayam Kampung</h3>
-                    <h2>Rp50.000</h2>
+                    <h3>{{$products->name}}</h3>
+                    <h2>{{$products->harga}}</h2>
                     <ul class="list">
                         <li><a class="active"><span>Category</span> : Hasil Ternak</a></li>
                         <li><a ><span>Availibility</span> : Tersedia</a></li>

@@ -11,7 +11,13 @@ use Illuminate\Support\Facades\Auth;
 
 class ProductController extends Controller
 {
-    public function tampil()
+    public function index()
+    {
+        $products=Products::orderBy('id','desc')->get();
+        return view('belanja.belanja', compact('products'));
+    }
+
+    public function create()
     {
         return view('belanja.belanja-tambah');
     }
@@ -40,5 +46,9 @@ class ProductController extends Controller
         return view ('belanja.belanja')->with('ambil',$ambil);
     }
 
+    public function detail(){
+        $products = Products::all();
+        return view('belanja.belanja-detail', compact('products'));
+    }
     
 }

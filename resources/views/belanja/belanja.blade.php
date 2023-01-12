@@ -68,13 +68,8 @@
                   </div>
             </div> -->
             {{-- Tengah --}}
-            @foreach($ambil as $data)
-            @forelse ($products as $product)
-                    @php 
-                        $bid = DB::table('products')
-                            ->where('id', $data->id)
-                            ->first();
-                    @endphp
+            @foreach($products as $data)
+            
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <img src="image/{{ $data -> gambar }}" class="card-img-top" alt="...">
@@ -83,13 +78,12 @@
                         <p class="card-text">{{ $data -> name }}</p>
                         <h4 class="card-title">Rp{{ $data -> harga }}</h4>
                         <p class="card-text">{{ $data -> lokasi }}</p>
-                        <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
+                        <a href="detailproduk/{{$data->id}}" class="stretched-link"></a>
                       
                     </div>
                   </div>
             </div>
             @endforeach
-            @endforelse
             {{-- Kanan --}}
           <!-- <div class="col">
             <div class="card" style="width: 18rem;">
