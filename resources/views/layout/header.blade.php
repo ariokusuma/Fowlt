@@ -127,7 +127,7 @@
                 </li>
 {{-- ============================================ --}}
               {{-- <a class="nav-link text-white" href="#">HubungiKami</a> --}}
-              <a class="nav-link text-white" href="#">Belanja</a>
+              <a class="nav-link text-white" href="{{ url('belanja') }}">Belanja</a>
               <a class="nav-link text-white" href="{{ url('artikel') }}">Artikel</a>
             </div>
 
