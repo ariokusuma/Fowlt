@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name', 255);
             $table->string('email', 255);
             $table->string('uname', 255);
+            $table->bigInteger('role_id')->default('2');
             $table->string('nohp', 255);
             $table->string('lokasi', 255);
             $table->string('password', 255);
