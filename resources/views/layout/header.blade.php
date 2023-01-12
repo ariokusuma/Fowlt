@@ -16,42 +16,7 @@
 
     {{-- Navbar --}}
 @auth
-    <!-- <nav class="navbar navbar-expand-lg" style="background-color:  #1a374d">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <img src="/image/Ecosystem.png" alt="Bootstrap" width="30" height="24">
-          </a>
 
-          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        {{-- Navbar --}}
-            <div class="navbar-nav">
-                <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
-                <a class="nav-link text-white" href="{{ url('aboutus') }}">About Us</a>
-                <a class="nav-link text-white" href="{{ url('produkfowlt') }}">Products</a>
-                <li class="has-children">
-                    <a href="#">Produk</a>
-                    <ul class="dropdown">
-                        <li><a href="elements.html">Elements</a></li>
-                        <li><a href="#">Menu One</a></li>
-                        <li class="has-children">
-                            <a href="#">Menu Two</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Sub Menu One</a></li>
-                                <li><a href="#">Sub Menu Two</a></li>
-                                <li><a href="#">Sub Menu Three</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Menu Three</a></li>
-                    </ul>
-                </li>
-                <a class="nav-link text-white" href="#">Contact Us</a>
-                <a class="nav-link text-white" href="#">Marketplace</a>
-
-            </div>
-        </div> -->
 
         <nav class="navbar navbar-expand-lg" id="navbar" style="background-color: #1a374d">
         <div class="container-fluid">
@@ -68,16 +33,16 @@
                 <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
               <a class="nav-link text-white" href="{{ url('aboutus') }}">TentangKami</a>
 
+
 {{-- ============================================ --}}
-                <li class="dropdown"><a ><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                    <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
-                    <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>
-                    <li><a href="{{ url('produk3') }}">Solusi untuk semua orang</a></li>
-                    </ul>
-                </li>
+<li class="dropdown text-white"><a href="#"><span>Produk</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+    <ul>
+    <li><a href="{{ url('produk1') }}">Solusi Jual/Beli</a></li>
+    <li><a href="{{ url('produk2') }}">Solusi Teknologi ternak</a></li>
+    <li><a href="{{ url('produk3') }}">Solusi untuk semua orang</a></li>
+    </ul>
+</li>
 {{-- ============================================ --}}
-              {{-- <a class="nav-link text-white" href="#">HubungiKami</a> --}}
               <a class="nav-link text-white" href="#">Belanja</a>
               <a class="nav-link text-white" href="{{ url('artikel') }}">Artikel</a>
             </div>
