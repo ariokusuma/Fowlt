@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -102,3 +103,6 @@ Route::get('profile', [UserController::class, 'profile'])->name('profile');
 Route::post('profil-edit', [UserController::class, 'profile_action'])->name('profile.action');
 
 Route::get('logout', [UserController::class, 'logout'])->name('logout');
+
+Route::get('/jualternak', [ProductController::class, 'tampil'])->name('tampil');
+Route::post('/jualternak', [ProductController::class, 'store'])->name('product.store');

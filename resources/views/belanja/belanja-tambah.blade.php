@@ -15,6 +15,7 @@
 </head>
 
 <body id="body">
+  @auth
   <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
     <div class="container">
       <div class="card login-card">
@@ -32,7 +33,7 @@
               <p class="login-card-description">Masukan Detail Ternak Anda</p>
               {{-- form --}}
 
-              <form action="{{ route('register.action') }}" method="POST">
+              <form action="{{ route('product.store') }}" method="POST" enctype="multipart/form-data">
 
                 @csrf
                 <div class="container text-start">
@@ -47,12 +48,12 @@
                       {{-- Nomor hp--}}
                       <div class="form-group">
                           <label for="nohp" class="form-label">Harga</label>
-                          <input type="text" name="nohp" id="nohp" class="form-control" placeholder="Rpxx.xxx">
+                          <input type="text" name="harga" id="harga" class="form-control" placeholder="Rpxx.xxx">
                       </div>
                       {{-- username --}}
                       <div class="form-group">
                         <label for="uname" class="form-label">Nama Anda</label>
-                        <input type="text" name="uname" id="uname" class="form-control" placeholder="Farmers Bojongsoang">
+                        <input type="text" name="farmer" id="famer" class="form-control" placeholder="Farmers Bojongsoang">
                     </div>
                     </div>
                     <div class="col">
@@ -67,8 +68,8 @@
 
                       {{-- email --}}
                         <div class="form-group">
-                          <label for="email" class="form-label">Gambar</label>
-                          <input type="file" name="email" id="email" class="form-control" placeholder="Email address">
+                          <label for="gambar" class="form-label">Gambar</label>
+                          <input type="file" name="gambar" id="gambar" class="form-control" value="">
                         </div>
                     </div>
                   </div>
@@ -95,6 +96,7 @@
       </div>
     </div>
   </main>
+  @endauth
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
