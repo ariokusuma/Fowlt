@@ -117,7 +117,7 @@
         <div class="row">
             {{-- Kiri --}}
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card mx-auto" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Solusi Jual/Beli</h5>
@@ -127,7 +127,7 @@
             </div>
             {{-- Tengah --}}
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card mx-auto" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Solusi Teknologi ternak</h5>
@@ -137,7 +137,7 @@
             </div>
             {{-- Kanan --}}
           <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Solusi untuk semua orang (Kabayan)</h5>

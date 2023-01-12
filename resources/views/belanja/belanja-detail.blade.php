@@ -30,28 +30,20 @@
             <div class="col-lg-4">
                 <div class="owl-carousel owl-theme s_Product_carousel">
                     <div class="single-prd-item">
-                        <img class="img-fluid ProductImage" src="/image/auth/loginn.jpg" alt="" height="40px" width="auto">
+                        <img class="img-fluid ProductImage" src="/image/market/chicken.jpg" alt="" height="40px" width="auto">
                     </div>
-                    <!-- <div class="single-prd-item">
-                        <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-                    </div>
-                    <div class="single-prd-item">
-                        <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-                    </div> -->
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <div class="s_product_text">
-                    <h3>Faded SkyBlu Denim Jeans</h3>
-                    <h2>IDR149.99</h2>
+                    <h3>Ayam Kampung</h3>
+                    <h2>Rp50.000</h2>
                     <ul class="list">
-                        <li><a class="active" href="#"><span>Category</span> : Household</a></li>
-                        <li><a href="#"><span>Availibility</span> : In Stock</a></li>
+                        <li><a class="active"><span>Category</span> : Hasil Ternak</a></li>
+                        <li><a ><span>Availibility</span> : Tersedia</a></li>
                     </ul>
-                    <p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
-                        something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
-                        during the winter.</p>
-                        <a class="button primary-btn" href="#">Add to Cart</a>
+                    <p>Ayam Kampung Kami diternak dengan sangat baik sesuai dengan standar </p>
+                        <a class="button primary-btn" href="#">Hubungi Penjual</a>
                     </div>
                     </div>
                 </div>

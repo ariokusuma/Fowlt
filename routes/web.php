@@ -87,6 +87,10 @@ Route::get('/', function () {
         return view('belanja.belanja-detail');
     });
 
+    Route::get('/jualternak', function () {
+        return view('belanja.belanja-tambah');
+    });
+
 
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');

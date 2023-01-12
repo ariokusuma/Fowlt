@@ -30,47 +30,14 @@
             <div class="col-lg-6 mx-auto text-center pt-5">
             <div class="intro-wrap">
                 <h1 class="mb-0 text-white">E-Fowlt Market</h1>
-                <p class="text-white">Tumbuh Bersama dan menciptakan sektor peternakan yang maju untuk Indonesia, dari Kita untuk Kita.</p>
+                <p class="text-white">Jual/beli ayam segar dan jumlah yang banyak lebih mudah dengan E-Folwt Market ! </p>
+                <p class="mb-0"><a href="{{ url('jualternak') }}" class="btn btn-outline-light text-white btn-md font-weight-bold rounded-pill"> Jual Hasil Ternak Anda </a></p>
                 <br>
             </div>
             </div>
         </div>
         </div>
     </div>
-
-
-@auth
-<section id="aboutUS" style="background-color:  #1a374d">
-    <div class="container text-center">
-        <div class="row align-items-center">
-            <!-- Kiri -->
-            <div class="col">
-                <div class="teksawalan">
-                    <h1 class="text-start">Membangun dan Mengembangkan peternakan berbasis IoT<br></h1>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                {{-- <img src="/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="29"> --}}
-                                {{-- <img src="public/image/chiken-landing.png" alt="logo-ead" width="Automatic" height="21"> --}}
-                            </div>
-                            <div class="col">
-                                <p>Ario_1202204123</p>
-                            </div>`
-                        </div>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <!-- Kanan -->
-
-            <div class="col">
-                <img src="/image/chiken-landing.png" class="rounded" alt="logo-ead" width="Automatic" height="390">
-            </div>
-        </div>
-    </div>
-</section>
-@endauth
-
 @guest
 
 
@@ -102,13 +69,13 @@
             </div>
             {{-- Tengah --}}
             <div class="col">
-                <div class="card" href="/" style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <img src="/image/market/chicken.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Ayam Kampung</p>
                         <h4 class="card-title">Rp50.000</h4>
                         <p class="card-text">Bandung</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
                     </div>
                   </div>
             </div>
@@ -120,7 +87,7 @@
                     <p class="card-text">Ayam Kampung</p>
                     <h4 class="card-title">Rp50.000</h4>
                     <p class="card-text">Bandung</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
                 </div>
               </div>
               <br>
@@ -130,6 +97,39 @@
         </div>
       </div>
 
+      <div class="card mb-3 mx-auto" style="max-width: 740px;">
+        <div class="row g-8">
+          <div class="col-md-4">
+            <img src="/image/market/chicken.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p>Ayam Kampung</p>
+              <h5 class="card-title">Rp50.000</h5>
+              <p class="card-text">Bandung</p>
+              <p class="card-text"><small class="text-muted">Lembang Farmers</small></p>
+              <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mx-auto" style="max-width: 740px;">
+        <div class="row g-8">
+          <div class="col-md-4">
+            <img src="/image/market/chicken.jpg" class="img-fluid rounded-center" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p>Ayam Kampung</p>
+              <h5 class="card-title">Rp50.000</h5>
+              <p class="card-text">Bandung</p>
+              <p class="card-text"><small class="text-muted">Oleh Ternak Asep</small></p>
+              <a href="{{ url('detailproduk') }}" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
         </section>
     @endguest
