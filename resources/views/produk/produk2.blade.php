@@ -67,7 +67,7 @@
           <div class="team">
             <img src="image/team/ivan2.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Ayam segar langsung dari peternak</h3>
+              <h3 class="fw-bold mb-0">Smart Feeder</h3>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
           <div class="team">
             <img src="image/team/hanif.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Harga yang terjangkau</h3>
+              <h3 class="fw-bold mb-0"> Smart Camera Sensor </h3>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
           <div class="team">
             <img src="image/team/ario.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
-              <h3 class="fw-bold mb-0">Kualitas ayam yang terjamin</h3>
+              <h3 class="fw-bold mb-0">Thermohygrometer</h3>
             </div>
           </div>
         </div>

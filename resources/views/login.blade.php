@@ -28,7 +28,7 @@
 
               <div class="brand-wrapper">
                 <a href="/">
-                    <img src="/image/auth/telyu.png" alt="logo" class="logo">
+                    <img src="/image/fowlt-logo.png" alt="logo" class="logo">
                 </a>
               </div>
 

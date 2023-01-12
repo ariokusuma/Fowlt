@@ -212,7 +212,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Solusi untuk semua orang (Kabayan)</h5>
                                     <p class="card-text">Sebuah solusi layanan bagi seluruh masyarakat Indonesia yang ingin memiliki usaha peternakan ayam namun belum memiliki modal usaha.</p>
-                                    <a href="{{ url('produk2') }}" class="stretched-link"></a>
+                                    <a href="{{ url('produk3') }}" class="stretched-link"></a>
                                 </div>
 
                             </div>

@@ -27,7 +27,7 @@
             <div class="card-body">
               <div class="brand-wrapper">
                 <a href="/">
-                    <img src="/image/auth/telyu.png" alt="logo" class="logo">
+                    <img src="/image/fowlt-logo.png" alt="logo" class="logo">
                 </a>
               </div>
 
@@ -60,7 +60,7 @@
                       <div class="col">
                         {{-- kodingan disini --}}
                         {{-- Lokasi--}}
-                        <label for="lokasi">Lokasi :<select class="form-select" aria-label="Default select example" id="lokasi" name="lokasi">
+                        <label for="lokasi">Lokasi :<select id="lokasik"  class="form-select" aria-label="Default select example" id="lokasi" name="lokasi">
                             <option selected>Pilih Lokasi</option>
                             <option value="Bandung">Bandung</option>
                             <option value="Yogyakarta">Yogyakarta</option>
@@ -68,7 +68,7 @@
                           </select></label>
 
                         {{-- email --}}
-                          <div class="form-group">
+                          <div class="form-group" id="emailk">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
                           </div>

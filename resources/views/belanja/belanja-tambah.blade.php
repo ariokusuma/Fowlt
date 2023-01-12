@@ -26,7 +26,7 @@
 
               <div class="brand-wrapper">
                 <a href="/">
-                    <img src="/image/auth/telyu.png" alt="logo" class="logo">
+                    <img src="/image/fowlt-logo.png" alt="logo" class="logo">
                 </a>
               </div>
 
@@ -75,9 +75,9 @@
                   </div>
                 </div>
                 {{-- Password --}}
-                <div class="form-group">
+                <div class="form-group" id='areateks'>
                   <label for="password" class="form-label">Deskripsi</label>
-                  <textarea type="textarea" name="deskripsi" id="deskripsi" class="form-control" rows="1"></textarea>
+                  <textarea type="textarea" name="deskripsi" id="deskripsi" class="form-control" rows="0"></textarea>
                 </div>
 
                 <input name="register" id="register" class="btn btn-block login-btn mb-4" type="submit" value="Daftar">
@@ -96,7 +96,7 @@
       </div>
     </div>
   </main>
-  
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
