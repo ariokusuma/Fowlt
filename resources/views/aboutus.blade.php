@@ -99,7 +99,7 @@
             <img src="image/team/dani.jpeg" alt="Image" class="img-fluid mb-4 rounded-4">
             <div class="px-3">
               <h3 class="mb-0">Ariadani Dwi Fathurahman</h3>
-              <p>Co-Founder &amp; Front-End Programmer</p>
+              <p>Co-Founder &amp; Back-End Programmer</p>
             </div>
           </div>
         </div>

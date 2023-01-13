@@ -38,7 +38,6 @@
         </div>
         </div>
     </div>
-@guest
 
 
   <section id="bagian2" style="background-color: rgb(255, 255, 255)">
@@ -78,8 +77,10 @@
                         <p class="card-text">{{ $data -> name }}</p>
                         <h4 class="card-title">Rp{{ $data -> harga }}</h4>
                         <p class="card-text">{{ $data -> lokasi }}</p>
-                      @if(!auth()->user()->isAdmin())
-                        <form action="{{ route('destroy')}}" method="post">
+                        <a href="/detailproduk/{{$data->id}}" class="btn btn-primary px-5 rounded-pill">Detail</a>
+
+                        <!-- TIDAK JALAN :(( )) -->
+                        <!-- <form action="{{ route('destroy')}}" method="post">
                             <div class="modal-body">
                             @csrf
                             @method('DELETE')
@@ -87,7 +88,8 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="submit" class="btn btn-danger px-5 rounded-pill">Delete </button>
-                      @endif
+                        </form> -->
+                        
                       
                     </div>
                   </div>
@@ -146,7 +148,7 @@
       </div> -->
 
         </section>
-    @endguest
+
 
 
 </section>
